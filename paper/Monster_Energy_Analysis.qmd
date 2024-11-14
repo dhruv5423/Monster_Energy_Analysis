@@ -22,13 +22,9 @@ bibliography: references.bib
 
 #Loading Packages
 library(tidyverse)
-library(tinytex)
-library(knitr)
 library(kableExtra)
-library(DT)
 
 # Load the raw and cleaned data
-raw_price_data <- read_csv(here::here("data/raw_data/Raw_Grocer_Price_Data.csv"))
 raw_product_data <- read_csv(here::here("data/raw_data/Raw_Grocer_Product_Data.csv"))
 raw_selected_data <- read_csv(here::here("data/raw_data/Raw_Selected_Data.csv"))
 cleaned_price_data <- read_csv(here::here("data/cleaned_data/Cleaned_Price_Data_Monster.csv"))
@@ -47,16 +43,18 @@ Personally, we are avid drinkers of the variant, 'Monster Zero Ultra', with some
 
 ## Data Extraction and Measurement
 
-The statistical software DB Browser for SQLite [@citeDB] will be used to query the dataset provided by Jacob Fillip in 'Project Hammer' [@hammer_dataset]. Additionallt the statistical software R will be used to visualise the selected datasets. [@citeR]
+The statistical software DB Browser for SQLite [@citeDB] will be used to query the dataset provided by Jacob Fillip in 'Project Hammer' [@hammer_dataset]. Additionally the statistical software R will be used to visualise the selected datasets. [@citeR]. Packages used include Tidyverse [@tidyverse] and KableExtra [@kableExtra].
 
 Project Hammer endeavours to reduce collusion in the Canadian Grocery sectors. They have created a database that displays historical grocery prices from top grocers in Canada so a community of people can create insightful analyses regarding the prices of goods across Canadian grocery stores. 
 
 According to Jacob Filipp's website, the data has been gathered from a screen-scrape of website UI, for the grocers Voila, T&T, Loblaws, No Frills, Metro, Galleria, Walmart Canada, and Save-On-Foods.
 
+\newpage
 
 ## Raw Data
 
-The Raw Data was originally organised into 2 tables. A product table, which contained vendors, associated product names, units, and brands. @tbl-raw-product and @tbl-raw-product-2 shows a sample of this below.
+The Raw Data was originally organised into 2 tables. A product table, which contained vendors, associated product names, units, and brands. @tbl-raw-product and @tbl-raw-product-2 shows a sample of this below. Additionally the 'raw' table contained time series price data for each product_id, found in the product table. 
+
 
 ```{r}
 #| label: tbl-raw-product
@@ -67,8 +65,16 @@ The Raw Data was originally organised into 2 tables. A product table, which cont
 library(knitr)
 library(kableExtra)
 
+# Rename columns for Part 1
+raw_product_data_renamed <- raw_product_data %>%
+  rename(
+    `ID` = id,
+    `Description` = concatted,
+    `Vendor` = vendor
+  )
+
 # Display first 2 rows and first half of columns
-raw_product_data[1:2, 1:3] %>%
+raw_product_data_renamed[1:2, 1:3] %>%
   kable(caption = "Sample of Raw Product Data - Part 1") %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
 ```
@@ -82,25 +88,20 @@ raw_product_data[1:2, 1:3] %>%
 library(knitr)
 library(kableExtra)
 
+# Rename columns for Part 2
+raw_product_data_renamed <- raw_product_data %>%
+  rename(
+    `Product Name` = product_name,
+    `Units` = units,
+    `Brand` = brand,
+    `Detail URL` = detail_url,
+    `SKU` = sku,
+    `UPC` = upc
+  )
+
 # Display first 2 rows and second half of columns
-raw_product_data[1:2, 4:ncol(raw_product_data)] %>%
+raw_product_data_renamed[1:2, 4:ncol(raw_product_data)] %>%
   kable(caption = "Sample of Raw Product Data - Part 2") %>%
-  kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
-```
-
-Additionally the 'raw' table contained time series price data for each product_id, found in the product table. @tbl-raw-price shows a sample of this below.
- 
-```{r}
-#| label: tbl-raw-price
-#| echo: false
-#| warning: false
-#| message: false
-
-library(knitr)
-library(kableExtra)
-
-head(raw_price_data, 2) %>%
-  kable(caption = "Sample of Raw Price Data") %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
 ```
 
@@ -114,15 +115,27 @@ SQL Querying was used in DB Browser for SQLite to first select the products refe
 #| warning: false
 #| message: false
 
+library(dplyr)
 library(knitr)
 library(kableExtra)
 
+# Rename the columns
+cleaned_price_data <- cleaned_price_data %>%
+  rename(
+    `Product ID` = product_id,
+    `Date & Time` = nowtime,
+    `Current Price` = current_price,
+    `Normalized Price` = normalized_price,
+    `Vendor` = vendor
+  )
+
+# Render the table
 head(cleaned_price_data, 2) %>%
-  kable(caption = "Sample of Cleaned Price Data") %>%
+  kable(caption = "Sample of Cleaned Price Data with Updated Column Names") %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
 ```
 
-Here, product_id refers to the corresponding product in the product table. In this case, product_id of 693972 refers to 'Voila~Monster Energy Drink Zero Ultra 473 ml (can).' The unit price is 2.99, and because there are no special deals offered, the normalized price is the same. 'nowtime' is the date the current price was recorded. An R script was used to add the corresponding vendors to the products.
+Here, Product ID refers to the corresponding product in the product table. In this case, Product ID of 693972 refers to 'Voila~Monster Energy Drink Zero Ultra 473 ml (can).' The unit price is 2.99, and because there are no special deals offered, the normalized price is the same. An R script was used to add the corresponding vendors to the products and clean the names of the columns.
 
 
 Additionally, the variety of Monster Energy drinks offered is of interest to those who consume the energy drinks regularly. Therefore we have further used SQL to select and count the number of monster energy items offered in each grocery store. This is shown in @tbl-count below.
@@ -136,8 +149,15 @@ Additionally, the variety of Monster Energy drinks offered is of interest to tho
 library(knitr)
 library(kableExtra)
 
+# Rename columns
+count_data_renamed <- count_data %>%
+  rename(
+    `Grocery Store` = grocer_name,
+    `Monster Energy Count` = monster_energy_count
+  )
+
 # Display the count data as a table
-count_data %>%
+count_data_renamed %>%
   kable(caption = "Number of Monster Energy Items Offered in Each Grocery Store") %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
 ```
@@ -160,7 +180,7 @@ data <- cleaned_price_data
 
 # Jitter the prices slightly to separate overlapping lines
 data <- data %>%
-  mutate(jittered_price = normalized_price + runif(n(), -0.05, 0.05))
+  mutate(`Jittered Price` = `Normalized Price` + runif(n(), -0.05, 0.05))
 
 # Define custom colors for vendors
 custom_colors <- c(
@@ -174,7 +194,7 @@ custom_colors <- c(
 )
 
 # Plot Price Progression with Custom Colors
-ggplot(data, aes(x = nowtime, y = jittered_price, color = vendor, group = vendor)) +
+ggplot(data, aes(x = `Date & Time`, y = `Jittered Price`, color = Vendor, group = Vendor)) +
   geom_line() +
   scale_x_datetime(date_labels = "%b %Y") +  # Include year in the x-axis
   scale_color_manual(values = custom_colors) +  # Use custom colors
