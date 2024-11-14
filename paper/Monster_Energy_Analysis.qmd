@@ -8,9 +8,227 @@ author:
 thanks: "https://github.com/dhruv5423/Monster_Energy_Analysis"
 date: today
 date-format: long
-abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+toc: true
+abstract: "Project Hammer's data set was used to compare prices for the variant Monster Zero Ultra across time and across vendors. We find that Metro and NoFrills have consisntetly demonstrated the cheapest prices (around $3) for a single can of Monster Zero Ultra, which is approximately $1 cheaper than other vendors for the same product. Additionally we find that Metro has the greatest variety in offerings of Monster Energy products according to the dataset we use. For heavy consumers of these products, this analysis is important as we find that choosing the cheaper option for a single can of Monster Zero Ultra has the possibility of one saving more than 30 dollars a month."
 format: pdf
 number-sections: true
 bibliography: references.bib
 
 ---
+```{r}
+#| include: false
+#| warning: false
+#| message: false
+
+#Loading Packages
+library(tidyverse)
+library(tinytex)
+library(knitr)
+library(kableExtra)
+library(DT)
+
+# Load the raw and cleaned data
+raw_price_data <- read_csv(here::here("data/raw_data/Raw_Grocer_Price_Data.csv"))
+raw_product_data <- read_csv(here::here("data/raw_data/Raw_Grocer_Product_Data.csv"))
+raw_selected_data <- read_csv(here::here("data/raw_data/Raw_Selected_Data.csv"))
+cleaned_price_data <- read_csv(here::here("data/cleaned_data/Cleaned_Price_Data_Monster.csv"))
+count_data <- read_csv(here::here("data/cleaned_data/Monster_energy_count_vendor.csv"))
+```
+
+
+# Introduction and Personal Motivation
+
+Monster Energy is a widely popular energy drink brand across the world. Created in April 2002, it is a caffeinated beverage with a multitude of flavours and offerings [@monster_wiki]. As of July 2019, the Monster brand contains 34 different drinks on the market in the US, and has brand sponsorships with multiple different large sporting events, including Formula 1, Nascar, and Horse racing companies.
+
+Personally, we are avid drinkers of the variant, 'Monster Zero Ultra', with some group members consuming 1-2 cans per day. It contains 0 sugar, 140mg of caffeine and is extremely refreshing. Therefore a large part of this paper will utilize the data set to understand the price differences of this particular flavour across Canadian grocery stores. As the price of these cans can differ significantly across stores, it is of great personal interest to identify where money can be saved. 
+
+
+# Data
+
+## Data Extraction and Measurement
+
+The statistical software DB Browser for SQLite [@citeDB] will be used to query the dataset provided by Jacob Fillip in 'Project Hammer' [@hammer_dataset]. Additionallt the statistical software R will be used to visualise the selected datasets. [@citeR]
+
+Project Hammer endeavours to reduce collusion in the Canadian Grocery sectors. They have created a database that displays historical grocery prices from top grocers in Canada so a community of people can create insightful analyses regarding the prices of goods across Canadian grocery stores. 
+
+According to Jacob Filipp's website, the data has been gathered from a screen-scrape of website UI, for the grocers Voila, T&T, Loblaws, No Frills, Metro, Galleria, Walmart Canada, and Save-On-Foods.
+
+
+## Raw Data
+
+The Raw Data was originally organised into 2 tables. A product table, which contained vendors, associated product names, units, and brands. @tbl-raw-product and @tbl-raw-product-2 shows a sample of this below.
+
+```{r}
+#| label: tbl-raw-product
+#| echo: false
+#| warning: false
+#| message: false
+
+library(knitr)
+library(kableExtra)
+
+# Display first 2 rows and first half of columns
+raw_product_data[1:2, 1:3] %>%
+  kable(caption = "Sample of Raw Product Data - Part 1") %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
+```
+
+```{r}
+#| label: tbl-raw-product-2
+#| echo: false
+#| warning: false
+#| message: false
+#| 
+library(knitr)
+library(kableExtra)
+
+# Display first 2 rows and second half of columns
+raw_product_data[1:2, 4:ncol(raw_product_data)] %>%
+  kable(caption = "Sample of Raw Product Data - Part 2") %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
+```
+
+Additionally the 'raw' table contained time series price data for each product_id, found in the product table. @tbl-raw-price shows a sample of this below.
+ 
+```{r}
+#| label: tbl-raw-price
+#| echo: false
+#| warning: false
+#| message: false
+
+library(knitr)
+library(kableExtra)
+
+head(raw_price_data, 2) %>%
+  kable(caption = "Sample of Raw Price Data") %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
+```
+
+## Data Cleaning
+
+SQL Querying was used in DB Browser for SQLite to first select the products referring to Monster Zero Ultra cans of 473ml if a store sold it. (See scripts/raw_selection_script.sql). Upon further inspection, we found that for some grocers, for example 'Metro', they offered these cans as a deal. That is, the cans were sold as 2 for 6 CAD. This was cleaned to account this as a normalized price of 3 CAD per can. An example of the cleaned data can be shown below in @tbl-clean.
+
+```{r}
+#| label: tbl-clean
+#| echo: false
+#| warning: false
+#| message: false
+
+library(knitr)
+library(kableExtra)
+
+head(cleaned_price_data, 2) %>%
+  kable(caption = "Sample of Cleaned Price Data") %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
+```
+
+Here, product_id refers to the corresponding product in the product table. In this case, product_id of 693972 refers to 'Voila~Monster Energy Drink Zero Ultra 473 ml (can).' The unit price is 2.99, and because there are no special deals offered, the normalized price is the same. 'nowtime' is the date the current price was recorded. An R script was used to add the corresponding vendors to the products.
+
+
+Additionally, the variety of Monster Energy drinks offered is of interest to those who consume the energy drinks regularly. Therefore we have further used SQL to select and count the number of monster energy items offered in each grocery store. This is shown in @tbl-count below.
+
+```{r}
+#| label: tbl-count
+#| echo: false
+#| warning: false
+#| message: false
+
+library(knitr)
+library(kableExtra)
+
+# Display the count data as a table
+count_data %>%
+  kable(caption = "Number of Monster Energy Items Offered in Each Grocery Store") %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
+```
+\newpage
+
+# Results and Discussion
+
+## Price Evolution Monster Zero Ultra by Grocer
+
+```{r}
+#| label: fig-price
+#| fig-cap: "Price Progression of Monster Zero Ultra Across Vendors"
+#| echo: false
+#| warning: false
+#| message: false
+
+
+# Load the data
+data <- cleaned_price_data
+
+# Jitter the prices slightly to separate overlapping lines
+data <- data %>%
+  mutate(jittered_price = normalized_price + runif(n(), -0.05, 0.05))
+
+# Define custom colors for vendors
+custom_colors <- c(
+  "Galleria" = "red",
+  "Metro" = "darkgreen",  # Changed to distinct green
+  "Save On Foods" = "blue",
+  "Walmart" = "purple",
+  "Loblaws" = "black",
+  "No Frills" = "orange",
+  "Voila" = "magenta"
+)
+
+# Plot Price Progression with Custom Colors
+ggplot(data, aes(x = nowtime, y = jittered_price, color = vendor, group = vendor)) +
+  geom_line() +
+  scale_x_datetime(date_labels = "%b %Y") +  # Include year in the x-axis
+  scale_color_manual(values = custom_colors) +  # Use custom colors
+  labs(
+    x = "Date",
+    y = "Normalized Price (CAD)",
+    color = "Vendor"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.5),
+    legend.position = "bottom"
+  )
+```
+
+From @fig-price, we observe that Metro and NoFrills are the cheapest options to buy a single 473ml can of Monster Zero Ultra, with prices around 3 CAD per can. Further, Save On Foods has historically had the highest prices for Monster Zero Ultra, sometimes having prices above 5 dollars per can. On average it seems to be that prices for 1 can are around 3.25-4 CAD, with 4 out of the 7 vendors who sell this variant having prices within that range. This further shows the relative cheapness of Metro and NoFrills: if one were to buy 1 can a day for a month, they could save around 30 dollars a month, compared to other 'averagely priced' options.
+
+Important to note is that these prices are for a single can on Monster Zero Ultra. Costco for example, which is not included in this analysis, offers a pack of 24 cans for 45.99 - considerably cheaper than any other option in this data set. So, what would be interesting as a next step would be to compare wholesale prices of cans, and normalize them to their 'price per can'. If one is a heavy drinker of these energy drinks, it would make more sense for them to buy them wholesale.
+
+\newpage
+
+## Monster Product Offerings by Grocer
+
+```{r}
+#| label: fig-count
+#| fig-cap: "Monster Energy Offerings by Vendor"
+#| fig.width: 4
+#| fig.heigh: 3
+#| echo: false
+#| warning: false
+#| message: false
+
+vendor_data <- count_data
+
+ggplot(vendor_data, aes(x = reorder(grocer_name, monster_energy_count), y = monster_energy_count)) +
+  geom_bar(stat = "identity", fill = "steelblue") +
+  coord_flip() +  # Flip the axes for better readability
+  labs(
+    x = "Vendor",
+    y = "Number of Monster Energy Products"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.5),
+    axis.text.x = element_text(angle = 45, hjust = 1)
+  )
+
+```
+
+
+@fig-count visualises the number of Monster Energy products offered by vendor. We see that Metro leads the way, with 53 products offered. Galleria and T&T being smaller convenience stores are expected to have low varieties of products offered.
+
+So, in terms of price and variety, Metro seems to be the best option for Monster enjoyers (assuming one is buying a single can). While NoFrills is comparable in terms of price, Metro has more than double the variety in product offerings.
+
+\newpage
+
+# Bibliography
