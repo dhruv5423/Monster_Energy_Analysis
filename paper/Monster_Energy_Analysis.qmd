@@ -1,0 +1,16 @@
+---
+title: "Monster Energy in Canadian Grocery Stores"
+subtitle: "An analysis of Monster Energy's offerings and prices across various Canadian Grocers"
+author: 
+  - Dhruv Gupta
+  - Justin Klip
+  - Kevin Shen
+thanks: "https://github.com/dhruv5423/Monster_Energy_Analysis"
+date: today
+date-format: long
+abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+format: pdf
+number-sections: true
+bibliography: references.bib
+
+---
