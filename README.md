@@ -1,4 +1,4 @@
-# Monster_Energy_Analysis
+# Monster Energy Analysis
 Investigation into Monster Energy products offered at various Canadian grocers and the price progression of their products.
 
 ## Overview
