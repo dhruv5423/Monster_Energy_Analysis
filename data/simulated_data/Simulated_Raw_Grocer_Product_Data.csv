@@ -1,0 +1,1001 @@
+id,concatted,vendor,product_name,units,brand,detail_url,sku,upc
+1,Vendor_C~Product_487,Voila,Product_245,222ml,Premium Brand,http://example.com/product_1,61935,3962156
+2,Vendor_C~Product_252,Voila,Product_42,349ml,Generic Brand,http://example.com/product_2,83488,6160929
+3,Vendor_B~Product_390,Loblaws,Product_458,414ml,Monster,http://example.com/product_3,82306,9854604
+4,Vendor_B~Product_231,Walmart,Product_52,356ml,Generic Brand,http://example.com/product_4,13525,1468066
+5,Vendor_C~Product_228,No Frills,Product_391,357ml,Generic Brand,http://example.com/product_5,97380,7564615
+6,Vendor_E~Product_311,Metro,Product_327,256ml,Monster,http://example.com/product_6,81143,9171537
+7,Vendor_D~Product_48,No Frills,Product_488,430ml,Premium Brand,http://example.com/product_7,33337,6999766
+8,Vendor_A~Product_382,Loblaws,Product_103,270ml,Premium Brand,http://example.com/product_8,69768,2755379
+9,Vendor_B~Product_255,No Frills,Product_215,353ml,Monster,http://example.com/product_9,53406,1296679
+10,Vendor_C~Product_156,Galleria,Product_112,411ml,Generic Brand,http://example.com/product_10,74144,3084235
+11,Vendor_E~Product_285,Walmart,Product_360,323ml,Generic Brand,http://example.com/product_11,84821,1563062
+12,Vendor_C~Product_196,Galleria,Product_419,500ml,Generic Brand,http://example.com/product_12,54861,4030109
+13,Vendor_C~Product_169,Galleria,Product_390,450ml,Premium Brand,http://example.com/product_13,99074,5767341
+14,Vendor_A~Product_389,Save On Foods,Product_425,238ml,Generic Brand,http://example.com/product_14,68331,8342964
+15,Vendor_D~Product_112,Metro,Product_287,489ml,Generic Brand,http://example.com/product_15,77790,1635501
+16,Vendor_A~Product_95,Walmart,Product_130,404ml,Premium Brand,http://example.com/product_16,78756,1969580
+17,Vendor_A~Product_251,Voila,Product_123,447ml,Generic Brand,http://example.com/product_17,94725,6551894
+18,Vendor_E~Product_107,Galleria,Product_429,491ml,Generic Brand,http://example.com/product_18,90536,2358012
+19,Vendor_C~Product_368,Metro,Product_376,362ml,Generic Brand,http://example.com/product_19,33983,8638744
+20,Vendor_B~Product_137,Galleria,Product_242,248ml,Premium Brand,http://example.com/product_20,25836,9282860
+21,Vendor_B~Product_339,Loblaws,Product_286,500ml,Premium Brand,http://example.com/product_21,88328,5341819
+22,Vendor_A~Product_156,Save On Foods,Product_127,267ml,Premium Brand,http://example.com/product_22,36779,7908873
+23,Vendor_C~Product_271,Galleria,Product_255,391ml,Monster,http://example.com/product_23,68276,9827957
+24,Vendor_D~Product_60,Walmart,Product_257,266ml,Monster,http://example.com/product_24,29370,3686266
+25,Vendor_A~Product_203,Metro,Product_367,408ml,Monster,http://example.com/product_25,82198,3161842
+26,Vendor_C~Product_221,Galleria,Product_253,500ml,Premium Brand,http://example.com/product_26,78158,7086582
+27,Vendor_E~Product_17,No Frills,Product_8,492ml,Premium Brand,http://example.com/product_27,40171,6882000
+28,Vendor_D~Product_445,Loblaws,Product_62,386ml,Monster,http://example.com/product_28,41694,6366424
+29,Vendor_B~Product_41,Voila,Product_427,297ml,Generic Brand,http://example.com/product_29,97477,8043289
+30,Vendor_E~Product_25,Galleria,Product_173,401ml,Generic Brand,http://example.com/product_30,87973,3755523
+31,Vendor_A~Product_239,No Frills,Product_234,203ml,Monster,http://example.com/product_31,66244,3137814
+32,Vendor_A~Product_332,Walmart,Product_468,347ml,Generic Brand,http://example.com/product_32,24785,2664970
+33,Vendor_B~Product_275,Loblaws,Product_301,245ml,Monster,http://example.com/product_33,93615,1658546
+34,Vendor_C~Product_52,No Frills,Product_105,299ml,Monster,http://example.com/product_34,49075,7182453
+35,Vendor_D~Product_199,Save On Foods,Product_101,296ml,Premium Brand,http://example.com/product_35,32501,1470724
+36,Vendor_E~Product_267,Save On Foods,Product_227,437ml,Generic Brand,http://example.com/product_36,77972,1598598
+37,Vendor_E~Product_143,Metro,Product_489,469ml,Generic Brand,http://example.com/product_37,82258,3700738
+38,Vendor_C~Product_201,Voila,Product_116,333ml,Monster,http://example.com/product_38,72193,1730166
+39,Vendor_A~Product_494,Voila,Product_65,414ml,Generic Brand,http://example.com/product_39,38223,1985538
+40,Vendor_B~Product_344,Loblaws,Product_137,390ml,Generic Brand,http://example.com/product_40,58560,4770352
+41,Vendor_E~Product_339,Loblaws,Product_31,446ml,Monster,http://example.com/product_41,60882,8863300
+42,Vendor_E~Product_139,Loblaws,Product_6,235ml,Monster,http://example.com/product_42,74851,5321192
+43,Vendor_D~Product_33,Galleria,Product_362,359ml,Monster,http://example.com/product_43,85140,7957037
+44,Vendor_E~Product_457,Loblaws,Product_70,438ml,Generic Brand,http://example.com/product_44,17240,3192161
+45,Vendor_B~Product_105,Save On Foods,Product_187,412ml,Generic Brand,http://example.com/product_45,76467,7658072
+46,Vendor_A~Product_279,Walmart,Product_459,478ml,Premium Brand,http://example.com/product_46,91016,2840302
+47,Vendor_A~Product_248,Loblaws,Product_480,260ml,Monster,http://example.com/product_47,66743,5744510
+48,Vendor_C~Product_17,Voila,Product_388,451ml,Premium Brand,http://example.com/product_48,77067,1322375
+49,Vendor_A~Product_138,Voila,Product_254,490ml,Generic Brand,http://example.com/product_49,47928,9454578
+50,Vendor_E~Product_456,Walmart,Product_11,360ml,Premium Brand,http://example.com/product_50,53162,8504749
+51,Vendor_A~Product_18,Voila,Product_396,410ml,Premium Brand,http://example.com/product_51,14814,1165755
+52,Vendor_B~Product_408,No Frills,Product_89,257ml,Monster,http://example.com/product_52,10994,9980183
+53,Vendor_D~Product_102,No Frills,Product_91,262ml,Premium Brand,http://example.com/product_53,49821,4310176
+54,Vendor_D~Product_345,Galleria,Product_400,331ml,Monster,http://example.com/product_54,14226,5813237
+55,Vendor_C~Product_434,Galleria,Product_277,350ml,Premium Brand,http://example.com/product_55,18793,7056388
+56,Vendor_A~Product_71,Walmart,Product_251,457ml,Premium Brand,http://example.com/product_56,94830,2763977
+57,Vendor_B~Product_359,Voila,Product_287,497ml,Premium Brand,http://example.com/product_57,57629,1811601
+58,Vendor_A~Product_396,Walmart,Product_146,295ml,Premium Brand,http://example.com/product_58,80808,7833888
+59,Vendor_B~Product_489,No Frills,Product_418,456ml,Monster,http://example.com/product_59,21486,6304923
+60,Vendor_D~Product_80,Voila,Product_146,423ml,Monster,http://example.com/product_60,14318,9707328
+61,Vendor_E~Product_131,Metro,Product_328,260ml,Generic Brand,http://example.com/product_61,99810,9691606
+62,Vendor_E~Product_415,Walmart,Product_157,392ml,Generic Brand,http://example.com/product_62,23051,2148643
+63,Vendor_C~Product_227,Metro,Product_293,303ml,Generic Brand,http://example.com/product_63,71078,8133715
+64,Vendor_A~Product_21,Galleria,Product_447,282ml,Generic Brand,http://example.com/product_64,33574,3193574
+65,Vendor_D~Product_238,No Frills,Product_169,239ml,Generic Brand,http://example.com/product_65,60696,5368739
+66,Vendor_A~Product_318,Walmart,Product_99,291ml,Generic Brand,http://example.com/product_66,94563,2897102
+67,Vendor_A~Product_162,Voila,Product_230,414ml,Generic Brand,http://example.com/product_67,71095,7201290
+68,Vendor_C~Product_28,Galleria,Product_494,232ml,Monster,http://example.com/product_68,69697,3694146
+69,Vendor_D~Product_420,Save On Foods,Product_101,447ml,Premium Brand,http://example.com/product_69,95027,4044240
+70,Vendor_A~Product_154,Voila,Product_34,429ml,Generic Brand,http://example.com/product_70,16229,6460793
+71,Vendor_C~Product_129,Voila,Product_191,478ml,Monster,http://example.com/product_71,72960,6125751
+72,Vendor_E~Product_90,Metro,Product_347,373ml,Monster,http://example.com/product_72,11150,4692356
+73,Vendor_C~Product_277,Walmart,Product_489,452ml,Monster,http://example.com/product_73,11106,5738111
+74,Vendor_B~Product_426,No Frills,Product_260,273ml,Generic Brand,http://example.com/product_74,47366,5489011
+75,Vendor_E~Product_376,No Frills,Product_350,412ml,Premium Brand,http://example.com/product_75,65960,3135449
+76,Vendor_E~Product_469,Loblaws,Product_373,402ml,Generic Brand,http://example.com/product_76,28256,1889804
+77,Vendor_C~Product_358,Galleria,Product_204,243ml,Premium Brand,http://example.com/product_77,46214,4970590
+78,Vendor_B~Product_121,No Frills,Product_257,339ml,Monster,http://example.com/product_78,37725,7711882
+79,Vendor_B~Product_163,Galleria,Product_353,268ml,Premium Brand,http://example.com/product_79,34230,4703642
+80,Vendor_B~Product_94,Metro,Product_498,324ml,Generic Brand,http://example.com/product_80,22479,6891249
+81,Vendor_D~Product_12,Walmart,Product_218,385ml,Generic Brand,http://example.com/product_81,79291,8152700
+82,Vendor_B~Product_481,Metro,Product_160,250ml,Monster,http://example.com/product_82,31485,5611878
+83,Vendor_B~Product_249,Galleria,Product_140,208ml,Premium Brand,http://example.com/product_83,58962,5235854
+84,Vendor_D~Product_492,Voila,Product_331,227ml,Premium Brand,http://example.com/product_84,73658,6216037
+85,Vendor_D~Product_141,Loblaws,Product_477,392ml,Premium Brand,http://example.com/product_85,40869,8828971
+86,Vendor_A~Product_306,Save On Foods,Product_218,241ml,Premium Brand,http://example.com/product_86,60017,9999906
+87,Vendor_C~Product_448,Metro,Product_396,417ml,Premium Brand,http://example.com/product_87,59758,4907297
+88,Vendor_C~Product_33,Voila,Product_476,411ml,Monster,http://example.com/product_88,54810,8963923
+89,Vendor_A~Product_152,Save On Foods,Product_128,377ml,Generic Brand,http://example.com/product_89,42794,4277813
+90,Vendor_C~Product_9,Loblaws,Product_223,365ml,Premium Brand,http://example.com/product_90,85148,9136556
+91,Vendor_E~Product_159,No Frills,Product_11,219ml,Premium Brand,http://example.com/product_91,25838,2760459
+92,Vendor_B~Product_352,Voila,Product_255,415ml,Generic Brand,http://example.com/product_92,66701,7180847
+93,Vendor_C~Product_194,Save On Foods,Product_15,256ml,Monster,http://example.com/product_93,96930,2821409
+94,Vendor_B~Product_384,Loblaws,Product_250,397ml,Premium Brand,http://example.com/product_94,36566,6389717
+95,Vendor_E~Product_287,Save On Foods,Product_412,353ml,Generic Brand,http://example.com/product_95,71857,6767605
+96,Vendor_E~Product_60,No Frills,Product_382,475ml,Monster,http://example.com/product_96,56095,9768406
+97,Vendor_C~Product_91,Walmart,Product_318,340ml,Premium Brand,http://example.com/product_97,92339,1379345
+98,Vendor_D~Product_99,No Frills,Product_187,403ml,Premium Brand,http://example.com/product_98,69787,2870310
+99,Vendor_D~Product_374,Galleria,Product_407,297ml,Premium Brand,http://example.com/product_99,41512,6997561
+100,Vendor_D~Product_225,Galleria,Product_453,260ml,Monster,http://example.com/product_100,50716,7399224
+101,Vendor_E~Product_407,Metro,Product_411,387ml,Monster,http://example.com/product_101,99515,5650538
+102,Vendor_C~Product_370,Galleria,Product_439,413ml,Generic Brand,http://example.com/product_102,97937,2404315
+103,Vendor_A~Product_421,Walmart,Product_85,461ml,Monster,http://example.com/product_103,64219,9533877
+104,Vendor_B~Product_202,Save On Foods,Product_20,279ml,Generic Brand,http://example.com/product_104,65291,9490484
+105,Vendor_A~Product_171,Voila,Product_210,496ml,Premium Brand,http://example.com/product_105,13230,4235129
+106,Vendor_B~Product_147,Walmart,Product_419,250ml,Monster,http://example.com/product_106,79352,6799047
+107,Vendor_E~Product_400,No Frills,Product_115,297ml,Monster,http://example.com/product_107,39161,6068228
+108,Vendor_C~Product_239,Metro,Product_470,406ml,Premium Brand,http://example.com/product_108,37572,2652727
+109,Vendor_D~Product_167,Save On Foods,Product_241,261ml,Monster,http://example.com/product_109,97885,2065237
+110,Vendor_D~Product_96,No Frills,Product_155,463ml,Generic Brand,http://example.com/product_110,14488,9298740
+111,Vendor_A~Product_240,Metro,Product_207,460ml,Monster,http://example.com/product_111,21842,1326422
+112,Vendor_D~Product_306,Walmart,Product_323,380ml,Monster,http://example.com/product_112,14748,8178037
+113,Vendor_A~Product_403,Loblaws,Product_5,430ml,Premium Brand,http://example.com/product_113,11433,3532332
+114,Vendor_C~Product_132,No Frills,Product_18,345ml,Premium Brand,http://example.com/product_114,37727,7547483
+115,Vendor_D~Product_179,Galleria,Product_440,359ml,Generic Brand,http://example.com/product_115,90761,3507416
+116,Vendor_C~Product_163,Galleria,Product_158,347ml,Generic Brand,http://example.com/product_116,73812,6503375
+117,Vendor_E~Product_290,No Frills,Product_458,449ml,Generic Brand,http://example.com/product_117,21601,8378700
+118,Vendor_D~Product_413,Galleria,Product_421,277ml,Generic Brand,http://example.com/product_118,38627,8312371
+119,Vendor_D~Product_77,Walmart,Product_451,316ml,Premium Brand,http://example.com/product_119,50773,1786791
+120,Vendor_D~Product_484,Walmart,Product_424,419ml,Monster,http://example.com/product_120,60414,3718426
+121,Vendor_A~Product_468,Loblaws,Product_373,434ml,Premium Brand,http://example.com/product_121,30753,5052504
+122,Vendor_B~Product_310,Save On Foods,Product_203,388ml,Monster,http://example.com/product_122,85676,2081028
+123,Vendor_C~Product_230,Walmart,Product_333,356ml,Generic Brand,http://example.com/product_123,53537,5670167
+124,Vendor_D~Product_323,Walmart,Product_83,478ml,Generic Brand,http://example.com/product_124,19017,5147372
+125,Vendor_C~Product_345,Loblaws,Product_292,462ml,Premium Brand,http://example.com/product_125,92431,6246082
+126,Vendor_A~Product_213,Galleria,Product_212,474ml,Monster,http://example.com/product_126,26690,9382670
+127,Vendor_E~Product_309,Galleria,Product_315,497ml,Premium Brand,http://example.com/product_127,32046,8450784
+128,Vendor_E~Product_424,Galleria,Product_95,375ml,Premium Brand,http://example.com/product_128,38614,2795914
+129,Vendor_B~Product_133,Voila,Product_17,357ml,Monster,http://example.com/product_129,47235,2302850
+130,Vendor_C~Product_261,Voila,Product_452,349ml,Generic Brand,http://example.com/product_130,96397,7207164
+131,Vendor_E~Product_467,Voila,Product_87,388ml,Monster,http://example.com/product_131,97177,1594018
+132,Vendor_A~Product_492,Galleria,Product_464,200ml,Monster,http://example.com/product_132,58220,5292523
+133,Vendor_D~Product_350,Walmart,Product_105,200ml,Premium Brand,http://example.com/product_133,97428,8049027
+134,Vendor_B~Product_71,Metro,Product_142,428ml,Monster,http://example.com/product_134,75191,4416461
+135,Vendor_D~Product_366,No Frills,Product_139,200ml,Monster,http://example.com/product_135,12807,1838596
+136,Vendor_E~Product_145,No Frills,Product_54,410ml,Generic Brand,http://example.com/product_136,38126,6526093
+137,Vendor_E~Product_477,Galleria,Product_133,265ml,Monster,http://example.com/product_137,65440,8022763
+138,Vendor_E~Product_256,Voila,Product_126,359ml,Generic Brand,http://example.com/product_138,59874,6680426
+139,Vendor_E~Product_98,Galleria,Product_299,264ml,Premium Brand,http://example.com/product_139,94354,7239581
+140,Vendor_A~Product_17,Loblaws,Product_268,464ml,Generic Brand,http://example.com/product_140,74430,5320964
+141,Vendor_B~Product_189,Metro,Product_70,201ml,Premium Brand,http://example.com/product_141,29550,1439065
+142,Vendor_A~Product_267,Voila,Product_163,256ml,Generic Brand,http://example.com/product_142,78803,1828351
+143,Vendor_B~Product_270,Walmart,Product_15,389ml,Monster,http://example.com/product_143,24608,8480318
+144,Vendor_E~Product_360,Loblaws,Product_206,265ml,Generic Brand,http://example.com/product_144,27288,1915050
+145,Vendor_E~Product_161,Metro,Product_273,225ml,Premium Brand,http://example.com/product_145,61518,7611207
+146,Vendor_A~Product_162,Save On Foods,Product_252,411ml,Premium Brand,http://example.com/product_146,20281,5798592
+147,Vendor_B~Product_448,Loblaws,Product_71,318ml,Generic Brand,http://example.com/product_147,82505,9521571
+148,Vendor_E~Product_138,Save On Foods,Product_449,325ml,Generic Brand,http://example.com/product_148,57972,7109255
+149,Vendor_D~Product_226,Voila,Product_378,411ml,Monster,http://example.com/product_149,99610,7119529
+150,Vendor_B~Product_381,Walmart,Product_402,263ml,Generic Brand,http://example.com/product_150,32866,6904825
+151,Vendor_B~Product_38,Walmart,Product_67,258ml,Premium Brand,http://example.com/product_151,77318,6747840
+152,Vendor_C~Product_205,Galleria,Product_9,390ml,Monster,http://example.com/product_152,80858,7664004
+153,Vendor_A~Product_268,Walmart,Product_267,244ml,Premium Brand,http://example.com/product_153,60045,4795942
+154,Vendor_A~Product_291,Walmart,Product_148,400ml,Monster,http://example.com/product_154,75325,3415691
+155,Vendor_E~Product_104,Metro,Product_177,275ml,Premium Brand,http://example.com/product_155,14456,5238236
+156,Vendor_E~Product_187,Galleria,Product_151,362ml,Monster,http://example.com/product_156,32847,9042389
+157,Vendor_C~Product_33,Loblaws,Product_123,419ml,Monster,http://example.com/product_157,19543,5733677
+158,Vendor_B~Product_238,Galleria,Product_175,229ml,Monster,http://example.com/product_158,48425,6511807
+159,Vendor_E~Product_427,No Frills,Product_228,485ml,Premium Brand,http://example.com/product_159,89540,5410584
+160,Vendor_E~Product_118,Save On Foods,Product_114,286ml,Generic Brand,http://example.com/product_160,13685,5836064
+161,Vendor_C~Product_267,No Frills,Product_154,311ml,Generic Brand,http://example.com/product_161,21981,7466011
+162,Vendor_C~Product_328,Voila,Product_227,490ml,Generic Brand,http://example.com/product_162,24602,7803222
+163,Vendor_A~Product_81,Walmart,Product_244,405ml,Generic Brand,http://example.com/product_163,67499,3259918
+164,Vendor_D~Product_260,Loblaws,Product_420,376ml,Premium Brand,http://example.com/product_164,22247,2442266
+165,Vendor_B~Product_76,Save On Foods,Product_267,314ml,Generic Brand,http://example.com/product_165,87480,3979824
+166,Vendor_A~Product_303,Galleria,Product_217,486ml,Premium Brand,http://example.com/product_166,41328,5834293
+167,Vendor_B~Product_184,Loblaws,Product_428,485ml,Monster,http://example.com/product_167,33540,5415903
+168,Vendor_D~Product_14,Save On Foods,Product_333,227ml,Monster,http://example.com/product_168,43842,3419564
+169,Vendor_E~Product_51,Loblaws,Product_466,407ml,Monster,http://example.com/product_169,28117,9232354
+170,Vendor_A~Product_155,Loblaws,Product_107,380ml,Premium Brand,http://example.com/product_170,95809,8022480
+171,Vendor_A~Product_75,Metro,Product_456,221ml,Monster,http://example.com/product_171,95493,6095143
+172,Vendor_A~Product_433,Galleria,Product_179,254ml,Monster,http://example.com/product_172,38573,2982130
+173,Vendor_E~Product_413,Voila,Product_336,228ml,Premium Brand,http://example.com/product_173,43621,8230551
+174,Vendor_C~Product_422,Walmart,Product_79,359ml,Premium Brand,http://example.com/product_174,53734,4467826
+175,Vendor_A~Product_236,Galleria,Product_479,395ml,Premium Brand,http://example.com/product_175,86774,1813810
+176,Vendor_B~Product_275,Save On Foods,Product_149,403ml,Monster,http://example.com/product_176,41048,5784061
+177,Vendor_B~Product_277,Galleria,Product_95,213ml,Generic Brand,http://example.com/product_177,82981,4776980
+178,Vendor_A~Product_49,Metro,Product_498,445ml,Monster,http://example.com/product_178,24764,2031808
+179,Vendor_B~Product_262,Galleria,Product_308,308ml,Premium Brand,http://example.com/product_179,95896,4784438
+180,Vendor_A~Product_325,Save On Foods,Product_165,213ml,Premium Brand,http://example.com/product_180,76339,3041197
+181,Vendor_E~Product_241,Loblaws,Product_327,473ml,Generic Brand,http://example.com/product_181,69563,6812776
+182,Vendor_B~Product_216,No Frills,Product_31,209ml,Premium Brand,http://example.com/product_182,75904,8020913
+183,Vendor_C~Product_254,No Frills,Product_381,485ml,Generic Brand,http://example.com/product_183,12301,7894310
+184,Vendor_E~Product_144,Galleria,Product_31,313ml,Monster,http://example.com/product_184,61432,7011107
+185,Vendor_D~Product_457,Walmart,Product_434,468ml,Generic Brand,http://example.com/product_185,14590,2747085
+186,Vendor_E~Product_363,Save On Foods,Product_434,353ml,Premium Brand,http://example.com/product_186,33861,9875942
+187,Vendor_B~Product_229,Galleria,Product_234,316ml,Generic Brand,http://example.com/product_187,13640,6083702
+188,Vendor_A~Product_334,Save On Foods,Product_485,417ml,Premium Brand,http://example.com/product_188,95536,2583617
+189,Vendor_D~Product_127,Walmart,Product_272,351ml,Premium Brand,http://example.com/product_189,65501,1178711
+190,Vendor_B~Product_190,Galleria,Product_11,368ml,Generic Brand,http://example.com/product_190,41709,9200943
+191,Vendor_E~Product_69,Galleria,Product_137,359ml,Generic Brand,http://example.com/product_191,99960,9636516
+192,Vendor_A~Product_491,Save On Foods,Product_189,482ml,Premium Brand,http://example.com/product_192,90528,1976094
+193,Vendor_E~Product_120,Metro,Product_201,324ml,Premium Brand,http://example.com/product_193,67870,7164860
+194,Vendor_A~Product_30,Voila,Product_1,457ml,Monster,http://example.com/product_194,18884,3123620
+195,Vendor_D~Product_318,Voila,Product_409,256ml,Premium Brand,http://example.com/product_195,54444,5248660
+196,Vendor_C~Product_429,No Frills,Product_178,447ml,Monster,http://example.com/product_196,88905,5769874
+197,Vendor_A~Product_116,Loblaws,Product_411,372ml,Monster,http://example.com/product_197,16350,3999699
+198,Vendor_A~Product_68,Loblaws,Product_64,310ml,Premium Brand,http://example.com/product_198,77442,7994217
+199,Vendor_B~Product_68,Walmart,Product_61,217ml,Monster,http://example.com/product_199,41553,5148274
+200,Vendor_D~Product_491,Galleria,Product_412,327ml,Monster,http://example.com/product_200,41730,1851720
+201,Vendor_B~Product_96,Metro,Product_422,206ml,Premium Brand,http://example.com/product_201,31392,6477730
+202,Vendor_A~Product_92,Walmart,Product_162,213ml,Monster,http://example.com/product_202,79609,5808770
+203,Vendor_E~Product_469,Voila,Product_28,255ml,Generic Brand,http://example.com/product_203,61441,9036179
+204,Vendor_E~Product_180,Walmart,Product_237,361ml,Generic Brand,http://example.com/product_204,47122,6628463
+205,Vendor_A~Product_70,Galleria,Product_459,409ml,Premium Brand,http://example.com/product_205,27887,5525101
+206,Vendor_A~Product_298,Metro,Product_133,479ml,Generic Brand,http://example.com/product_206,32192,3412404
+207,Vendor_E~Product_276,Galleria,Product_441,496ml,Generic Brand,http://example.com/product_207,33207,6117671
+208,Vendor_E~Product_251,Walmart,Product_216,200ml,Monster,http://example.com/product_208,65438,8084495
+209,Vendor_B~Product_465,Galleria,Product_116,361ml,Premium Brand,http://example.com/product_209,90510,4689752
+210,Vendor_B~Product_75,Galleria,Product_259,441ml,Premium Brand,http://example.com/product_210,84805,5636746
+211,Vendor_E~Product_296,Loblaws,Product_133,292ml,Premium Brand,http://example.com/product_211,42710,3591916
+212,Vendor_A~Product_405,Save On Foods,Product_413,365ml,Generic Brand,http://example.com/product_212,59108,1979219
+213,Vendor_A~Product_229,Save On Foods,Product_200,344ml,Premium Brand,http://example.com/product_213,20824,4889345
+214,Vendor_E~Product_224,Walmart,Product_131,457ml,Generic Brand,http://example.com/product_214,41083,5807202
+215,Vendor_E~Product_58,Voila,Product_302,295ml,Monster,http://example.com/product_215,64802,7025185
+216,Vendor_D~Product_83,Save On Foods,Product_318,469ml,Premium Brand,http://example.com/product_216,49287,9948031
+217,Vendor_E~Product_299,Voila,Product_270,450ml,Monster,http://example.com/product_217,33939,2566266
+218,Vendor_E~Product_257,Metro,Product_463,449ml,Premium Brand,http://example.com/product_218,34788,1152483
+219,Vendor_D~Product_162,Galleria,Product_207,384ml,Monster,http://example.com/product_219,47755,3572177
+220,Vendor_B~Product_76,Loblaws,Product_241,299ml,Premium Brand,http://example.com/product_220,27412,1359089
+221,Vendor_E~Product_398,Loblaws,Product_451,475ml,Premium Brand,http://example.com/product_221,80840,8237376
+222,Vendor_A~Product_67,Metro,Product_82,370ml,Generic Brand,http://example.com/product_222,97654,7065596
+223,Vendor_A~Product_304,Voila,Product_123,238ml,Monster,http://example.com/product_223,63884,9889203
+224,Vendor_B~Product_20,Loblaws,Product_485,419ml,Monster,http://example.com/product_224,41011,7464335
+225,Vendor_A~Product_256,Metro,Product_333,477ml,Premium Brand,http://example.com/product_225,68144,4049168
+226,Vendor_B~Product_90,Walmart,Product_130,499ml,Monster,http://example.com/product_226,43205,5150184
+227,Vendor_E~Product_132,Walmart,Product_302,384ml,Premium Brand,http://example.com/product_227,64934,9116501
+228,Vendor_A~Product_4,No Frills,Product_370,426ml,Monster,http://example.com/product_228,94314,4011622
+229,Vendor_C~Product_218,Metro,Product_58,280ml,Monster,http://example.com/product_229,63833,2958293
+230,Vendor_B~Product_449,Save On Foods,Product_230,361ml,Monster,http://example.com/product_230,86347,6043794
+231,Vendor_B~Product_217,Loblaws,Product_70,260ml,Monster,http://example.com/product_231,59373,3968602
+232,Vendor_E~Product_253,Loblaws,Product_16,454ml,Premium Brand,http://example.com/product_232,69771,2865882
+233,Vendor_D~Product_81,Voila,Product_1,365ml,Monster,http://example.com/product_233,47950,6879541
+234,Vendor_A~Product_213,Loblaws,Product_291,277ml,Premium Brand,http://example.com/product_234,78420,4671991
+235,Vendor_E~Product_36,Metro,Product_160,335ml,Premium Brand,http://example.com/product_235,37845,4825114
+236,Vendor_B~Product_145,Walmart,Product_285,234ml,Monster,http://example.com/product_236,20199,9730123
+237,Vendor_E~Product_423,Save On Foods,Product_439,367ml,Generic Brand,http://example.com/product_237,34546,6356034
+238,Vendor_B~Product_249,Galleria,Product_375,271ml,Monster,http://example.com/product_238,31512,2345336
+239,Vendor_B~Product_59,No Frills,Product_19,333ml,Monster,http://example.com/product_239,10636,6055212
+240,Vendor_D~Product_69,No Frills,Product_186,353ml,Premium Brand,http://example.com/product_240,61788,4706673
+241,Vendor_C~Product_221,Metro,Product_12,379ml,Premium Brand,http://example.com/product_241,20581,3038493
+242,Vendor_D~Product_137,Galleria,Product_338,203ml,Premium Brand,http://example.com/product_242,15816,9742222
+243,Vendor_C~Product_287,Galleria,Product_68,210ml,Monster,http://example.com/product_243,91024,1070467
+244,Vendor_C~Product_198,Voila,Product_149,347ml,Premium Brand,http://example.com/product_244,29487,9422089
+245,Vendor_C~Product_297,Walmart,Product_110,351ml,Premium Brand,http://example.com/product_245,50135,6172066
+246,Vendor_E~Product_415,No Frills,Product_241,321ml,Premium Brand,http://example.com/product_246,79399,1788554
+247,Vendor_C~Product_35,Metro,Product_363,203ml,Monster,http://example.com/product_247,18624,7648638
+248,Vendor_B~Product_73,No Frills,Product_415,440ml,Generic Brand,http://example.com/product_248,94714,1470847
+249,Vendor_C~Product_305,Walmart,Product_317,331ml,Premium Brand,http://example.com/product_249,43786,5158647
+250,Vendor_A~Product_483,No Frills,Product_78,214ml,Premium Brand,http://example.com/product_250,65931,5950024
+251,Vendor_E~Product_251,Galleria,Product_456,443ml,Monster,http://example.com/product_251,29583,3151519
+252,Vendor_A~Product_422,Metro,Product_170,210ml,Monster,http://example.com/product_252,10187,7879063
+253,Vendor_D~Product_82,No Frills,Product_46,256ml,Monster,http://example.com/product_253,60675,2310969
+254,Vendor_B~Product_401,Save On Foods,Product_159,360ml,Monster,http://example.com/product_254,99155,7571300
+255,Vendor_B~Product_333,Loblaws,Product_179,340ml,Monster,http://example.com/product_255,97006,2183859
+256,Vendor_D~Product_364,Walmart,Product_373,200ml,Generic Brand,http://example.com/product_256,70190,4718314
+257,Vendor_A~Product_175,Loblaws,Product_56,390ml,Monster,http://example.com/product_257,68478,6662802
+258,Vendor_D~Product_93,Voila,Product_426,315ml,Premium Brand,http://example.com/product_258,33120,1747322
+259,Vendor_E~Product_234,No Frills,Product_147,263ml,Generic Brand,http://example.com/product_259,94394,2518902
+260,Vendor_E~Product_309,Metro,Product_175,449ml,Monster,http://example.com/product_260,87993,7120653
+261,Vendor_C~Product_272,No Frills,Product_209,490ml,Premium Brand,http://example.com/product_261,93121,6357095
+262,Vendor_E~Product_481,Loblaws,Product_17,219ml,Premium Brand,http://example.com/product_262,36320,8366055
+263,Vendor_E~Product_486,Galleria,Product_418,267ml,Monster,http://example.com/product_263,52391,5681915
+264,Vendor_C~Product_143,No Frills,Product_186,282ml,Premium Brand,http://example.com/product_264,92447,7329852
+265,Vendor_A~Product_347,Galleria,Product_232,490ml,Generic Brand,http://example.com/product_265,67079,8915908
+266,Vendor_C~Product_150,Voila,Product_377,233ml,Premium Brand,http://example.com/product_266,81139,5756171
+267,Vendor_D~Product_136,No Frills,Product_483,353ml,Generic Brand,http://example.com/product_267,20209,8319959
+268,Vendor_B~Product_321,Save On Foods,Product_106,369ml,Generic Brand,http://example.com/product_268,83423,6053573
+269,Vendor_E~Product_454,Voila,Product_475,204ml,Premium Brand,http://example.com/product_269,77718,7415399
+270,Vendor_A~Product_497,Save On Foods,Product_177,221ml,Monster,http://example.com/product_270,70494,6656140
+271,Vendor_D~Product_214,Voila,Product_18,203ml,Generic Brand,http://example.com/product_271,60314,1558792
+272,Vendor_C~Product_198,Loblaws,Product_243,330ml,Generic Brand,http://example.com/product_272,66567,2979482
+273,Vendor_A~Product_261,Galleria,Product_246,430ml,Generic Brand,http://example.com/product_273,51247,7601711
+274,Vendor_B~Product_474,Galleria,Product_323,278ml,Monster,http://example.com/product_274,65395,1280720
+275,Vendor_C~Product_9,Loblaws,Product_442,416ml,Premium Brand,http://example.com/product_275,91621,9799116
+276,Vendor_C~Product_287,Metro,Product_344,287ml,Premium Brand,http://example.com/product_276,92755,1243736
+277,Vendor_A~Product_490,Voila,Product_322,445ml,Premium Brand,http://example.com/product_277,55227,7879544
+278,Vendor_B~Product_67,Walmart,Product_429,425ml,Generic Brand,http://example.com/product_278,18977,7752026
+279,Vendor_A~Product_425,Loblaws,Product_67,370ml,Premium Brand,http://example.com/product_279,73764,2106208
+280,Vendor_B~Product_32,Metro,Product_400,239ml,Generic Brand,http://example.com/product_280,48858,8627440
+281,Vendor_B~Product_309,Save On Foods,Product_478,443ml,Generic Brand,http://example.com/product_281,59487,7992156
+282,Vendor_B~Product_23,Metro,Product_149,233ml,Monster,http://example.com/product_282,30243,6313669
+283,Vendor_E~Product_82,No Frills,Product_201,346ml,Monster,http://example.com/product_283,37962,7473478
+284,Vendor_D~Product_470,Voila,Product_496,245ml,Generic Brand,http://example.com/product_284,96934,4316128
+285,Vendor_D~Product_314,Metro,Product_426,369ml,Monster,http://example.com/product_285,63089,3992153
+286,Vendor_E~Product_407,No Frills,Product_90,202ml,Monster,http://example.com/product_286,38369,8835372
+287,Vendor_D~Product_115,Metro,Product_209,329ml,Monster,http://example.com/product_287,41421,7097585
+288,Vendor_A~Product_281,Galleria,Product_302,237ml,Monster,http://example.com/product_288,43772,7257221
+289,Vendor_B~Product_294,Galleria,Product_489,380ml,Generic Brand,http://example.com/product_289,87129,1391988
+290,Vendor_A~Product_30,Galleria,Product_291,326ml,Premium Brand,http://example.com/product_290,98653,5543966
+291,Vendor_B~Product_166,Voila,Product_36,403ml,Generic Brand,http://example.com/product_291,48442,2433956
+292,Vendor_C~Product_488,Metro,Product_65,229ml,Premium Brand,http://example.com/product_292,45228,7156897
+293,Vendor_B~Product_132,Loblaws,Product_497,468ml,Monster,http://example.com/product_293,52126,3869447
+294,Vendor_C~Product_209,No Frills,Product_358,274ml,Monster,http://example.com/product_294,92918,4493191
+295,Vendor_A~Product_372,Loblaws,Product_202,412ml,Generic Brand,http://example.com/product_295,31984,6672751
+296,Vendor_D~Product_70,Voila,Product_359,465ml,Monster,http://example.com/product_296,53296,8698852
+297,Vendor_B~Product_154,Metro,Product_215,343ml,Premium Brand,http://example.com/product_297,21452,7689889
+298,Vendor_C~Product_39,Metro,Product_282,436ml,Premium Brand,http://example.com/product_298,67640,1635839
+299,Vendor_E~Product_352,Galleria,Product_208,380ml,Generic Brand,http://example.com/product_299,40692,5118144
+300,Vendor_E~Product_411,Voila,Product_242,256ml,Monster,http://example.com/product_300,87845,3152797
+301,Vendor_C~Product_126,Save On Foods,Product_253,206ml,Generic Brand,http://example.com/product_301,65909,4734222
+302,Vendor_B~Product_231,Loblaws,Product_94,362ml,Premium Brand,http://example.com/product_302,52739,3366808
+303,Vendor_E~Product_446,Galleria,Product_21,293ml,Premium Brand,http://example.com/product_303,51982,2386127
+304,Vendor_D~Product_331,Metro,Product_420,279ml,Generic Brand,http://example.com/product_304,96174,4813615
+305,Vendor_B~Product_149,No Frills,Product_281,273ml,Monster,http://example.com/product_305,25212,1402754
+306,Vendor_A~Product_353,Walmart,Product_343,264ml,Generic Brand,http://example.com/product_306,27362,9836825
+307,Vendor_D~Product_115,Loblaws,Product_183,427ml,Monster,http://example.com/product_307,74302,5542681
+308,Vendor_A~Product_328,No Frills,Product_332,259ml,Premium Brand,http://example.com/product_308,90051,7383356
+309,Vendor_D~Product_17,No Frills,Product_55,259ml,Premium Brand,http://example.com/product_309,98920,3522748
+310,Vendor_E~Product_380,Galleria,Product_256,352ml,Monster,http://example.com/product_310,55546,7439702
+311,Vendor_D~Product_350,Walmart,Product_7,329ml,Generic Brand,http://example.com/product_311,81968,7585156
+312,Vendor_B~Product_334,Loblaws,Product_21,492ml,Premium Brand,http://example.com/product_312,58394,8896428
+313,Vendor_B~Product_408,Save On Foods,Product_89,314ml,Monster,http://example.com/product_313,53792,2216331
+314,Vendor_D~Product_135,No Frills,Product_152,445ml,Premium Brand,http://example.com/product_314,76279,2315911
+315,Vendor_C~Product_195,Walmart,Product_57,437ml,Generic Brand,http://example.com/product_315,89199,3193616
+316,Vendor_E~Product_417,Galleria,Product_91,270ml,Monster,http://example.com/product_316,85520,9432254
+317,Vendor_B~Product_216,Voila,Product_367,233ml,Monster,http://example.com/product_317,23719,9949502
+318,Vendor_C~Product_207,Voila,Product_51,389ml,Premium Brand,http://example.com/product_318,37262,1292072
+319,Vendor_C~Product_475,Walmart,Product_38,437ml,Monster,http://example.com/product_319,61282,2886061
+320,Vendor_C~Product_280,Galleria,Product_307,491ml,Monster,http://example.com/product_320,13561,5743158
+321,Vendor_A~Product_87,Walmart,Product_498,247ml,Generic Brand,http://example.com/product_321,43550,6059227
+322,Vendor_A~Product_377,No Frills,Product_476,387ml,Premium Brand,http://example.com/product_322,50038,4043759
+323,Vendor_C~Product_46,No Frills,Product_443,296ml,Generic Brand,http://example.com/product_323,53612,3663433
+324,Vendor_D~Product_27,Voila,Product_274,420ml,Premium Brand,http://example.com/product_324,84880,4478346
+325,Vendor_D~Product_396,Voila,Product_398,219ml,Generic Brand,http://example.com/product_325,92201,5992330
+326,Vendor_E~Product_49,No Frills,Product_230,214ml,Monster,http://example.com/product_326,53977,9408020
+327,Vendor_B~Product_136,No Frills,Product_373,466ml,Monster,http://example.com/product_327,47418,9245959
+328,Vendor_B~Product_225,Metro,Product_474,266ml,Monster,http://example.com/product_328,46522,6853819
+329,Vendor_D~Product_342,No Frills,Product_102,324ml,Premium Brand,http://example.com/product_329,46766,7820060
+330,Vendor_B~Product_98,Loblaws,Product_176,223ml,Premium Brand,http://example.com/product_330,53701,2038373
+331,Vendor_A~Product_389,Galleria,Product_299,488ml,Premium Brand,http://example.com/product_331,83869,5088851
+332,Vendor_D~Product_378,Walmart,Product_305,376ml,Generic Brand,http://example.com/product_332,46427,2129743
+333,Vendor_C~Product_77,Save On Foods,Product_168,311ml,Monster,http://example.com/product_333,47950,6569855
+334,Vendor_A~Product_211,Galleria,Product_285,294ml,Premium Brand,http://example.com/product_334,42351,5551711
+335,Vendor_E~Product_95,No Frills,Product_151,386ml,Premium Brand,http://example.com/product_335,32397,7655216
+336,Vendor_C~Product_410,Metro,Product_249,269ml,Generic Brand,http://example.com/product_336,83449,2733842
+337,Vendor_D~Product_20,Galleria,Product_327,366ml,Monster,http://example.com/product_337,20891,1096995
+338,Vendor_B~Product_157,No Frills,Product_388,348ml,Premium Brand,http://example.com/product_338,76643,3751992
+339,Vendor_E~Product_184,Galleria,Product_460,288ml,Generic Brand,http://example.com/product_339,49943,9822655
+340,Vendor_E~Product_246,Walmart,Product_493,437ml,Monster,http://example.com/product_340,38699,8592238
+341,Vendor_B~Product_137,Loblaws,Product_444,460ml,Monster,http://example.com/product_341,58451,2978617
+342,Vendor_B~Product_208,Voila,Product_210,294ml,Monster,http://example.com/product_342,92162,9793124
+343,Vendor_B~Product_213,Voila,Product_154,247ml,Monster,http://example.com/product_343,93884,6633718
+344,Vendor_A~Product_225,No Frills,Product_401,209ml,Generic Brand,http://example.com/product_344,16338,5893961
+345,Vendor_C~Product_255,Metro,Product_444,470ml,Premium Brand,http://example.com/product_345,24400,7517501
+346,Vendor_D~Product_49,Voila,Product_158,447ml,Premium Brand,http://example.com/product_346,75062,9376705
+347,Vendor_C~Product_434,Walmart,Product_161,420ml,Premium Brand,http://example.com/product_347,17077,9525377
+348,Vendor_C~Product_42,Voila,Product_166,250ml,Monster,http://example.com/product_348,10882,1037625
+349,Vendor_C~Product_457,No Frills,Product_162,220ml,Generic Brand,http://example.com/product_349,27721,6768336
+350,Vendor_D~Product_139,Loblaws,Product_426,203ml,Monster,http://example.com/product_350,55005,8858193
+351,Vendor_D~Product_65,Metro,Product_122,246ml,Premium Brand,http://example.com/product_351,93033,1422964
+352,Vendor_C~Product_354,Voila,Product_306,316ml,Premium Brand,http://example.com/product_352,26212,3674777
+353,Vendor_D~Product_203,Loblaws,Product_97,464ml,Generic Brand,http://example.com/product_353,75418,1847768
+354,Vendor_B~Product_473,Loblaws,Product_370,252ml,Generic Brand,http://example.com/product_354,53277,8441914
+355,Vendor_C~Product_113,Loblaws,Product_472,296ml,Premium Brand,http://example.com/product_355,26912,1663330
+356,Vendor_D~Product_318,Galleria,Product_248,207ml,Premium Brand,http://example.com/product_356,63878,6936704
+357,Vendor_B~Product_462,Metro,Product_162,234ml,Premium Brand,http://example.com/product_357,16446,7675542
+358,Vendor_A~Product_242,No Frills,Product_469,227ml,Monster,http://example.com/product_358,46413,5944080
+359,Vendor_C~Product_223,Loblaws,Product_426,295ml,Monster,http://example.com/product_359,77264,7837999
+360,Vendor_D~Product_14,Save On Foods,Product_331,314ml,Premium Brand,http://example.com/product_360,36960,5742310
+361,Vendor_A~Product_468,No Frills,Product_414,364ml,Premium Brand,http://example.com/product_361,71467,9135719
+362,Vendor_A~Product_232,Galleria,Product_392,423ml,Generic Brand,http://example.com/product_362,19351,8926057
+363,Vendor_D~Product_344,Galleria,Product_477,303ml,Generic Brand,http://example.com/product_363,82970,6577490
+364,Vendor_D~Product_37,Voila,Product_226,215ml,Premium Brand,http://example.com/product_364,78120,3912495
+365,Vendor_E~Product_361,Loblaws,Product_444,229ml,Generic Brand,http://example.com/product_365,23344,3634034
+366,Vendor_A~Product_93,Save On Foods,Product_183,436ml,Premium Brand,http://example.com/product_366,53015,6213427
+367,Vendor_D~Product_138,Metro,Product_373,480ml,Monster,http://example.com/product_367,65893,2692194
+368,Vendor_E~Product_49,Walmart,Product_334,444ml,Premium Brand,http://example.com/product_368,42054,5832436
+369,Vendor_C~Product_52,Walmart,Product_132,439ml,Premium Brand,http://example.com/product_369,72003,5043417
+370,Vendor_B~Product_455,Galleria,Product_249,218ml,Monster,http://example.com/product_370,93932,8881707
+371,Vendor_E~Product_150,Voila,Product_26,479ml,Monster,http://example.com/product_371,87887,5306883
+372,Vendor_D~Product_172,Voila,Product_434,429ml,Premium Brand,http://example.com/product_372,57908,2365888
+373,Vendor_D~Product_255,Loblaws,Product_108,256ml,Generic Brand,http://example.com/product_373,48434,3276514
+374,Vendor_A~Product_480,Voila,Product_164,218ml,Premium Brand,http://example.com/product_374,53668,2733636
+375,Vendor_C~Product_267,Walmart,Product_125,213ml,Premium Brand,http://example.com/product_375,82740,4438292
+376,Vendor_C~Product_274,Walmart,Product_337,377ml,Premium Brand,http://example.com/product_376,73946,2765207
+377,Vendor_C~Product_127,Loblaws,Product_10,438ml,Monster,http://example.com/product_377,97693,3401439
+378,Vendor_E~Product_140,Save On Foods,Product_435,339ml,Premium Brand,http://example.com/product_378,96795,9871088
+379,Vendor_B~Product_199,Loblaws,Product_122,320ml,Premium Brand,http://example.com/product_379,92309,2358632
+380,Vendor_E~Product_387,Metro,Product_253,499ml,Premium Brand,http://example.com/product_380,30832,5947724
+381,Vendor_B~Product_443,Loblaws,Product_314,435ml,Monster,http://example.com/product_381,69543,1275411
+382,Vendor_A~Product_174,No Frills,Product_65,329ml,Premium Brand,http://example.com/product_382,18446,4159309
+383,Vendor_D~Product_338,Loblaws,Product_398,282ml,Monster,http://example.com/product_383,47604,4981672
+384,Vendor_B~Product_191,Walmart,Product_197,309ml,Generic Brand,http://example.com/product_384,53974,7858571
+385,Vendor_B~Product_368,Voila,Product_333,450ml,Premium Brand,http://example.com/product_385,80662,5150342
+386,Vendor_C~Product_305,Voila,Product_79,228ml,Monster,http://example.com/product_386,49273,2340938
+387,Vendor_E~Product_326,Metro,Product_436,432ml,Generic Brand,http://example.com/product_387,97604,4008233
+388,Vendor_A~Product_30,No Frills,Product_476,410ml,Generic Brand,http://example.com/product_388,77888,2964088
+389,Vendor_C~Product_198,Walmart,Product_230,455ml,Generic Brand,http://example.com/product_389,29616,5516788
+390,Vendor_C~Product_292,No Frills,Product_444,280ml,Monster,http://example.com/product_390,14371,4357158
+391,Vendor_B~Product_181,No Frills,Product_340,338ml,Generic Brand,http://example.com/product_391,74441,4568090
+392,Vendor_E~Product_157,Loblaws,Product_361,231ml,Premium Brand,http://example.com/product_392,61704,6309338
+393,Vendor_A~Product_293,Walmart,Product_148,303ml,Premium Brand,http://example.com/product_393,46669,7248458
+394,Vendor_D~Product_189,Voila,Product_199,278ml,Premium Brand,http://example.com/product_394,76073,8958481
+395,Vendor_D~Product_366,No Frills,Product_373,278ml,Monster,http://example.com/product_395,92564,3727313
+396,Vendor_A~Product_426,Walmart,Product_288,271ml,Premium Brand,http://example.com/product_396,80194,9374151
+397,Vendor_C~Product_488,Loblaws,Product_172,353ml,Generic Brand,http://example.com/product_397,96177,8484282
+398,Vendor_D~Product_182,Voila,Product_21,312ml,Premium Brand,http://example.com/product_398,44590,6050636
+399,Vendor_D~Product_426,Loblaws,Product_184,384ml,Generic Brand,http://example.com/product_399,15028,2971135
+400,Vendor_A~Product_183,Voila,Product_416,430ml,Generic Brand,http://example.com/product_400,24644,1555177
+401,Vendor_E~Product_446,Loblaws,Product_499,473ml,Premium Brand,http://example.com/product_401,11151,5854112
+402,Vendor_C~Product_46,Walmart,Product_306,441ml,Monster,http://example.com/product_402,80866,7854637
+403,Vendor_D~Product_413,Galleria,Product_364,347ml,Premium Brand,http://example.com/product_403,24096,8150267
+404,Vendor_B~Product_495,No Frills,Product_423,441ml,Generic Brand,http://example.com/product_404,10006,3035401
+405,Vendor_C~Product_51,Walmart,Product_36,373ml,Premium Brand,http://example.com/product_405,56847,5858678
+406,Vendor_B~Product_32,Save On Foods,Product_299,394ml,Generic Brand,http://example.com/product_406,24765,7469088
+407,Vendor_C~Product_385,Loblaws,Product_478,201ml,Premium Brand,http://example.com/product_407,15059,3905408
+408,Vendor_C~Product_162,Galleria,Product_34,358ml,Generic Brand,http://example.com/product_408,94057,4917441
+409,Vendor_A~Product_207,Walmart,Product_355,224ml,Monster,http://example.com/product_409,33232,8456230
+410,Vendor_E~Product_266,Walmart,Product_99,483ml,Generic Brand,http://example.com/product_410,87001,5380410
+411,Vendor_D~Product_325,Voila,Product_5,450ml,Monster,http://example.com/product_411,85041,8466886
+412,Vendor_D~Product_261,Loblaws,Product_293,292ml,Premium Brand,http://example.com/product_412,66166,8820595
+413,Vendor_E~Product_183,No Frills,Product_303,328ml,Generic Brand,http://example.com/product_413,29609,6421674
+414,Vendor_C~Product_465,Loblaws,Product_4,486ml,Generic Brand,http://example.com/product_414,51593,3394639
+415,Vendor_B~Product_241,Voila,Product_226,288ml,Generic Brand,http://example.com/product_415,53889,4544066
+416,Vendor_D~Product_122,Save On Foods,Product_18,303ml,Generic Brand,http://example.com/product_416,30413,4420937
+417,Vendor_E~Product_114,Voila,Product_166,261ml,Monster,http://example.com/product_417,56973,8139704
+418,Vendor_B~Product_130,Galleria,Product_291,205ml,Premium Brand,http://example.com/product_418,46494,5782966
+419,Vendor_C~Product_411,Save On Foods,Product_374,454ml,Generic Brand,http://example.com/product_419,25742,3451510
+420,Vendor_C~Product_255,Save On Foods,Product_221,255ml,Monster,http://example.com/product_420,35676,5685676
+421,Vendor_A~Product_318,No Frills,Product_87,219ml,Monster,http://example.com/product_421,72083,1980127
+422,Vendor_C~Product_139,Loblaws,Product_458,249ml,Monster,http://example.com/product_422,50836,8697442
+423,Vendor_B~Product_320,Metro,Product_466,401ml,Monster,http://example.com/product_423,76041,7784819
+424,Vendor_C~Product_101,No Frills,Product_106,204ml,Monster,http://example.com/product_424,17185,5819959
+425,Vendor_C~Product_81,Galleria,Product_322,276ml,Monster,http://example.com/product_425,20278,3156463
+426,Vendor_A~Product_447,Voila,Product_55,464ml,Premium Brand,http://example.com/product_426,80869,7082820
+427,Vendor_B~Product_238,Voila,Product_226,373ml,Generic Brand,http://example.com/product_427,75517,4577747
+428,Vendor_B~Product_99,No Frills,Product_97,292ml,Generic Brand,http://example.com/product_428,22057,3511300
+429,Vendor_B~Product_426,Galleria,Product_200,423ml,Generic Brand,http://example.com/product_429,83107,7877704
+430,Vendor_D~Product_397,Voila,Product_86,446ml,Premium Brand,http://example.com/product_430,92708,9528656
+431,Vendor_A~Product_448,Metro,Product_82,275ml,Monster,http://example.com/product_431,39746,6993677
+432,Vendor_E~Product_185,Voila,Product_100,323ml,Premium Brand,http://example.com/product_432,24640,1063753
+433,Vendor_E~Product_350,Walmart,Product_6,293ml,Monster,http://example.com/product_433,27786,6137424
+434,Vendor_C~Product_287,Metro,Product_182,304ml,Generic Brand,http://example.com/product_434,86073,7570395
+435,Vendor_C~Product_51,Loblaws,Product_169,209ml,Generic Brand,http://example.com/product_435,99961,6182879
+436,Vendor_E~Product_226,Walmart,Product_127,416ml,Generic Brand,http://example.com/product_436,20557,9993363
+437,Vendor_A~Product_380,Walmart,Product_77,453ml,Monster,http://example.com/product_437,49354,3786245
+438,Vendor_D~Product_17,Galleria,Product_247,401ml,Monster,http://example.com/product_438,76634,9473506
+439,Vendor_B~Product_457,Galleria,Product_398,248ml,Monster,http://example.com/product_439,18562,6697652
+440,Vendor_E~Product_115,No Frills,Product_217,231ml,Monster,http://example.com/product_440,65327,8294185
+441,Vendor_D~Product_434,Galleria,Product_248,324ml,Generic Brand,http://example.com/product_441,92022,5865606
+442,Vendor_E~Product_329,Save On Foods,Product_333,237ml,Monster,http://example.com/product_442,41145,1185450
+443,Vendor_A~Product_318,Galleria,Product_487,362ml,Generic Brand,http://example.com/product_443,83467,8412177
+444,Vendor_B~Product_122,Loblaws,Product_228,455ml,Generic Brand,http://example.com/product_444,13356,2954314
+445,Vendor_C~Product_187,No Frills,Product_265,366ml,Premium Brand,http://example.com/product_445,55567,4749401
+446,Vendor_A~Product_186,Loblaws,Product_214,331ml,Premium Brand,http://example.com/product_446,20767,7416850
+447,Vendor_A~Product_86,Loblaws,Product_105,427ml,Premium Brand,http://example.com/product_447,46316,6060639
+448,Vendor_C~Product_494,Galleria,Product_418,372ml,Monster,http://example.com/product_448,40457,7299097
+449,Vendor_B~Product_431,Save On Foods,Product_76,326ml,Monster,http://example.com/product_449,26966,9776678
+450,Vendor_D~Product_32,Walmart,Product_297,424ml,Monster,http://example.com/product_450,60133,2524800
+451,Vendor_E~Product_102,Save On Foods,Product_137,367ml,Premium Brand,http://example.com/product_451,24331,6877126
+452,Vendor_C~Product_104,Metro,Product_82,258ml,Monster,http://example.com/product_452,60202,2237636
+453,Vendor_D~Product_124,Voila,Product_415,373ml,Generic Brand,http://example.com/product_453,84130,6975901
+454,Vendor_E~Product_500,No Frills,Product_393,236ml,Generic Brand,http://example.com/product_454,30744,4859622
+455,Vendor_C~Product_450,Save On Foods,Product_104,426ml,Generic Brand,http://example.com/product_455,25678,5455432
+456,Vendor_A~Product_129,Galleria,Product_250,420ml,Monster,http://example.com/product_456,68489,8501954
+457,Vendor_E~Product_402,No Frills,Product_217,421ml,Premium Brand,http://example.com/product_457,17150,7912816
+458,Vendor_B~Product_71,Galleria,Product_124,303ml,Premium Brand,http://example.com/product_458,82985,3611060
+459,Vendor_D~Product_347,No Frills,Product_490,276ml,Premium Brand,http://example.com/product_459,88283,6164086
+460,Vendor_B~Product_71,Voila,Product_482,257ml,Monster,http://example.com/product_460,86963,2945234
+461,Vendor_A~Product_36,Walmart,Product_482,448ml,Premium Brand,http://example.com/product_461,54183,7524262
+462,Vendor_E~Product_325,Metro,Product_442,407ml,Monster,http://example.com/product_462,35645,1371066
+463,Vendor_B~Product_75,Loblaws,Product_165,308ml,Generic Brand,http://example.com/product_463,42342,3948009
+464,Vendor_E~Product_383,Voila,Product_362,238ml,Generic Brand,http://example.com/product_464,30052,1104669
+465,Vendor_A~Product_283,Metro,Product_194,292ml,Monster,http://example.com/product_465,94858,8674353
+466,Vendor_A~Product_479,Loblaws,Product_276,469ml,Generic Brand,http://example.com/product_466,22426,9696600
+467,Vendor_B~Product_42,Voila,Product_102,382ml,Monster,http://example.com/product_467,88670,4275201
+468,Vendor_D~Product_75,Voila,Product_319,424ml,Premium Brand,http://example.com/product_468,53183,1687826
+469,Vendor_B~Product_412,Metro,Product_356,425ml,Generic Brand,http://example.com/product_469,77933,4148873
+470,Vendor_A~Product_33,Save On Foods,Product_212,311ml,Monster,http://example.com/product_470,97164,1486237
+471,Vendor_A~Product_379,Save On Foods,Product_234,244ml,Generic Brand,http://example.com/product_471,42006,9674988
+472,Vendor_A~Product_106,No Frills,Product_468,351ml,Monster,http://example.com/product_472,82943,6341836
+473,Vendor_D~Product_32,Voila,Product_296,216ml,Generic Brand,http://example.com/product_473,53029,5716717
+474,Vendor_A~Product_249,Metro,Product_117,352ml,Monster,http://example.com/product_474,41910,8282840
+475,Vendor_C~Product_343,Save On Foods,Product_242,475ml,Monster,http://example.com/product_475,88185,5627658
+476,Vendor_B~Product_85,Voila,Product_272,251ml,Generic Brand,http://example.com/product_476,33056,7997567
+477,Vendor_A~Product_300,No Frills,Product_191,319ml,Monster,http://example.com/product_477,59719,5257877
+478,Vendor_A~Product_487,Loblaws,Product_258,490ml,Premium Brand,http://example.com/product_478,78360,6118741
+479,Vendor_E~Product_190,Loblaws,Product_428,338ml,Monster,http://example.com/product_479,10249,9075910
+480,Vendor_E~Product_421,Save On Foods,Product_16,331ml,Generic Brand,http://example.com/product_480,12400,7831863
+481,Vendor_D~Product_96,Loblaws,Product_276,443ml,Premium Brand,http://example.com/product_481,45900,3910644
+482,Vendor_D~Product_498,Galleria,Product_238,245ml,Premium Brand,http://example.com/product_482,10323,3831983
+483,Vendor_D~Product_40,Metro,Product_65,308ml,Generic Brand,http://example.com/product_483,10278,9896059
+484,Vendor_E~Product_79,Save On Foods,Product_401,235ml,Premium Brand,http://example.com/product_484,51103,3807751
+485,Vendor_D~Product_224,Save On Foods,Product_370,430ml,Monster,http://example.com/product_485,41188,4361113
+486,Vendor_A~Product_199,Voila,Product_265,266ml,Generic Brand,http://example.com/product_486,60799,2727460
+487,Vendor_C~Product_270,Loblaws,Product_422,318ml,Premium Brand,http://example.com/product_487,93860,5700766
+488,Vendor_E~Product_362,Walmart,Product_416,286ml,Premium Brand,http://example.com/product_488,22304,9327222
+489,Vendor_D~Product_440,Voila,Product_232,270ml,Premium Brand,http://example.com/product_489,78031,9118239
+490,Vendor_B~Product_304,Galleria,Product_232,227ml,Premium Brand,http://example.com/product_490,79254,2655992
+491,Vendor_A~Product_89,Voila,Product_89,380ml,Premium Brand,http://example.com/product_491,96292,9067789
+492,Vendor_D~Product_259,No Frills,Product_202,361ml,Monster,http://example.com/product_492,83308,6424407
+493,Vendor_A~Product_374,Walmart,Product_498,380ml,Monster,http://example.com/product_493,45364,6330486
+494,Vendor_C~Product_279,Metro,Product_90,275ml,Monster,http://example.com/product_494,22630,6691541
+495,Vendor_A~Product_75,Galleria,Product_432,468ml,Generic Brand,http://example.com/product_495,76633,1976680
+496,Vendor_C~Product_317,Galleria,Product_288,339ml,Generic Brand,http://example.com/product_496,37434,2934349
+497,Vendor_C~Product_123,Loblaws,Product_19,468ml,Premium Brand,http://example.com/product_497,84332,2357545
+498,Vendor_B~Product_351,Galleria,Product_488,323ml,Premium Brand,http://example.com/product_498,94641,7752230
+499,Vendor_C~Product_318,Galleria,Product_384,239ml,Premium Brand,http://example.com/product_499,74770,2008994
+500,Vendor_D~Product_195,Save On Foods,Product_203,299ml,Premium Brand,http://example.com/product_500,43364,5248828
+501,Vendor_B~Product_392,Voila,Product_79,267ml,Generic Brand,http://example.com/product_501,20095,8213105
+502,Vendor_A~Product_255,Save On Foods,Product_391,374ml,Premium Brand,http://example.com/product_502,37035,8913064
+503,Vendor_E~Product_188,Loblaws,Product_348,375ml,Monster,http://example.com/product_503,61492,4174412
+504,Vendor_C~Product_475,Loblaws,Product_387,500ml,Generic Brand,http://example.com/product_504,81406,9428252
+505,Vendor_D~Product_347,No Frills,Product_444,349ml,Generic Brand,http://example.com/product_505,27628,8378136
+506,Vendor_E~Product_49,Voila,Product_338,262ml,Monster,http://example.com/product_506,29213,9339018
+507,Vendor_E~Product_345,Loblaws,Product_307,210ml,Generic Brand,http://example.com/product_507,17524,7512215
+508,Vendor_D~Product_284,No Frills,Product_125,433ml,Generic Brand,http://example.com/product_508,53609,9940177
+509,Vendor_A~Product_412,Save On Foods,Product_146,288ml,Premium Brand,http://example.com/product_509,39917,8623613
+510,Vendor_A~Product_374,Walmart,Product_25,482ml,Generic Brand,http://example.com/product_510,91600,9249600
+511,Vendor_D~Product_205,Voila,Product_18,407ml,Generic Brand,http://example.com/product_511,82557,7610767
+512,Vendor_C~Product_463,Voila,Product_481,289ml,Generic Brand,http://example.com/product_512,50585,9161581
+513,Vendor_E~Product_300,Voila,Product_371,246ml,Generic Brand,http://example.com/product_513,87489,3388370
+514,Vendor_B~Product_233,Save On Foods,Product_127,321ml,Generic Brand,http://example.com/product_514,84889,7151532
+515,Vendor_A~Product_435,Voila,Product_478,452ml,Generic Brand,http://example.com/product_515,37573,5573756
+516,Vendor_D~Product_307,Loblaws,Product_132,234ml,Generic Brand,http://example.com/product_516,63590,4863760
+517,Vendor_D~Product_31,No Frills,Product_394,414ml,Premium Brand,http://example.com/product_517,12609,7049056
+518,Vendor_D~Product_230,Save On Foods,Product_275,255ml,Generic Brand,http://example.com/product_518,86318,8176186
+519,Vendor_C~Product_333,Save On Foods,Product_422,299ml,Monster,http://example.com/product_519,34057,5836551
+520,Vendor_B~Product_425,Metro,Product_149,260ml,Monster,http://example.com/product_520,43128,9059448
+521,Vendor_B~Product_75,Metro,Product_164,494ml,Monster,http://example.com/product_521,39108,4388164
+522,Vendor_C~Product_185,Save On Foods,Product_200,472ml,Premium Brand,http://example.com/product_522,20701,9614049
+523,Vendor_E~Product_46,Loblaws,Product_116,345ml,Monster,http://example.com/product_523,51878,5779976
+524,Vendor_D~Product_307,No Frills,Product_496,475ml,Monster,http://example.com/product_524,30482,2808712
+525,Vendor_C~Product_60,Save On Foods,Product_71,400ml,Premium Brand,http://example.com/product_525,71054,6697537
+526,Vendor_C~Product_318,No Frills,Product_33,201ml,Monster,http://example.com/product_526,61899,3387177
+527,Vendor_A~Product_373,Galleria,Product_240,289ml,Generic Brand,http://example.com/product_527,88873,8831291
+528,Vendor_E~Product_311,Walmart,Product_162,202ml,Monster,http://example.com/product_528,48611,7609831
+529,Vendor_E~Product_114,Loblaws,Product_488,268ml,Monster,http://example.com/product_529,67921,4479853
+530,Vendor_A~Product_278,Save On Foods,Product_269,349ml,Premium Brand,http://example.com/product_530,92507,2839848
+531,Vendor_A~Product_408,Walmart,Product_99,387ml,Generic Brand,http://example.com/product_531,39299,8887646
+532,Vendor_A~Product_245,Voila,Product_112,328ml,Monster,http://example.com/product_532,69410,1988494
+533,Vendor_E~Product_493,No Frills,Product_109,309ml,Premium Brand,http://example.com/product_533,88793,3158427
+534,Vendor_E~Product_12,Metro,Product_32,348ml,Monster,http://example.com/product_534,46098,3108460
+535,Vendor_D~Product_371,Voila,Product_268,309ml,Generic Brand,http://example.com/product_535,92735,5352664
+536,Vendor_B~Product_44,Loblaws,Product_485,285ml,Monster,http://example.com/product_536,51364,8933149
+537,Vendor_B~Product_474,Galleria,Product_260,224ml,Premium Brand,http://example.com/product_537,66230,5408416
+538,Vendor_D~Product_404,Metro,Product_217,210ml,Premium Brand,http://example.com/product_538,63930,6122610
+539,Vendor_B~Product_356,Metro,Product_240,315ml,Premium Brand,http://example.com/product_539,74206,2390383
+540,Vendor_A~Product_317,No Frills,Product_475,418ml,Generic Brand,http://example.com/product_540,44375,8073575
+541,Vendor_C~Product_220,Metro,Product_307,208ml,Generic Brand,http://example.com/product_541,69717,6293436
+542,Vendor_E~Product_379,Loblaws,Product_332,449ml,Generic Brand,http://example.com/product_542,44329,1316265
+543,Vendor_C~Product_464,Loblaws,Product_254,492ml,Premium Brand,http://example.com/product_543,66209,1574913
+544,Vendor_A~Product_177,No Frills,Product_368,209ml,Premium Brand,http://example.com/product_544,50763,6500979
+545,Vendor_B~Product_172,Save On Foods,Product_385,281ml,Generic Brand,http://example.com/product_545,79454,2151748
+546,Vendor_D~Product_322,Loblaws,Product_372,283ml,Premium Brand,http://example.com/product_546,69307,9406276
+547,Vendor_D~Product_165,Save On Foods,Product_345,402ml,Monster,http://example.com/product_547,87135,9827389
+548,Vendor_A~Product_275,Voila,Product_337,431ml,Monster,http://example.com/product_548,48561,8808267
+549,Vendor_E~Product_77,Loblaws,Product_16,226ml,Generic Brand,http://example.com/product_549,72866,4694861
+550,Vendor_A~Product_103,Loblaws,Product_230,426ml,Monster,http://example.com/product_550,48805,5374296
+551,Vendor_D~Product_94,Voila,Product_485,489ml,Monster,http://example.com/product_551,26346,8155189
+552,Vendor_C~Product_56,Walmart,Product_258,286ml,Monster,http://example.com/product_552,97835,2478068
+553,Vendor_D~Product_389,Voila,Product_327,234ml,Premium Brand,http://example.com/product_553,20199,4233589
+554,Vendor_E~Product_455,Galleria,Product_320,356ml,Monster,http://example.com/product_554,42122,8271590
+555,Vendor_E~Product_144,Voila,Product_31,291ml,Premium Brand,http://example.com/product_555,40632,7573591
+556,Vendor_D~Product_108,Metro,Product_59,369ml,Generic Brand,http://example.com/product_556,37097,6260630
+557,Vendor_C~Product_491,Save On Foods,Product_174,379ml,Monster,http://example.com/product_557,52658,6518086
+558,Vendor_C~Product_467,No Frills,Product_443,383ml,Monster,http://example.com/product_558,96444,7290218
+559,Vendor_B~Product_102,Save On Foods,Product_249,312ml,Premium Brand,http://example.com/product_559,30777,7643836
+560,Vendor_E~Product_56,Voila,Product_399,281ml,Generic Brand,http://example.com/product_560,94492,9403018
+561,Vendor_E~Product_26,Voila,Product_144,353ml,Monster,http://example.com/product_561,94435,3760383
+562,Vendor_A~Product_492,Voila,Product_222,297ml,Monster,http://example.com/product_562,95336,2263110
+563,Vendor_C~Product_173,Metro,Product_295,298ml,Monster,http://example.com/product_563,26215,5822400
+564,Vendor_B~Product_294,Metro,Product_124,365ml,Monster,http://example.com/product_564,22195,9088296
+565,Vendor_C~Product_10,Save On Foods,Product_100,461ml,Generic Brand,http://example.com/product_565,49614,4566183
+566,Vendor_D~Product_424,Metro,Product_288,313ml,Monster,http://example.com/product_566,44521,8257366
+567,Vendor_B~Product_10,Metro,Product_196,300ml,Generic Brand,http://example.com/product_567,69641,1544619
+568,Vendor_E~Product_38,Loblaws,Product_74,213ml,Generic Brand,http://example.com/product_568,20560,6648414
+569,Vendor_C~Product_219,No Frills,Product_10,473ml,Generic Brand,http://example.com/product_569,59296,1299028
+570,Vendor_C~Product_307,Walmart,Product_321,395ml,Monster,http://example.com/product_570,92562,5131207
+571,Vendor_B~Product_413,Galleria,Product_430,294ml,Premium Brand,http://example.com/product_571,51679,6891113
+572,Vendor_B~Product_478,Galleria,Product_221,472ml,Generic Brand,http://example.com/product_572,77647,7606214
+573,Vendor_D~Product_215,Loblaws,Product_100,391ml,Monster,http://example.com/product_573,89120,8394621
+574,Vendor_B~Product_497,Walmart,Product_296,343ml,Generic Brand,http://example.com/product_574,68838,1697189
+575,Vendor_A~Product_310,Loblaws,Product_331,499ml,Premium Brand,http://example.com/product_575,63251,7672071
+576,Vendor_D~Product_341,Galleria,Product_262,282ml,Generic Brand,http://example.com/product_576,95177,9539308
+577,Vendor_A~Product_322,Walmart,Product_305,455ml,Generic Brand,http://example.com/product_577,25822,6779545
+578,Vendor_E~Product_215,Walmart,Product_140,370ml,Generic Brand,http://example.com/product_578,27964,7483134
+579,Vendor_B~Product_448,Galleria,Product_311,312ml,Monster,http://example.com/product_579,63633,1246823
+580,Vendor_E~Product_403,Save On Foods,Product_29,498ml,Monster,http://example.com/product_580,48898,7819441
+581,Vendor_B~Product_147,Voila,Product_257,322ml,Generic Brand,http://example.com/product_581,99699,7971574
+582,Vendor_B~Product_372,Save On Foods,Product_195,445ml,Premium Brand,http://example.com/product_582,25471,4871709
+583,Vendor_C~Product_333,Save On Foods,Product_454,294ml,Generic Brand,http://example.com/product_583,38726,8524793
+584,Vendor_B~Product_33,Metro,Product_248,490ml,Generic Brand,http://example.com/product_584,39492,7407284
+585,Vendor_C~Product_294,Voila,Product_220,305ml,Premium Brand,http://example.com/product_585,92419,7049738
+586,Vendor_C~Product_64,Walmart,Product_2,307ml,Monster,http://example.com/product_586,56945,9775793
+587,Vendor_A~Product_165,No Frills,Product_200,352ml,Generic Brand,http://example.com/product_587,13232,8740146
+588,Vendor_A~Product_498,No Frills,Product_223,277ml,Premium Brand,http://example.com/product_588,84520,9739876
+589,Vendor_E~Product_199,No Frills,Product_482,342ml,Premium Brand,http://example.com/product_589,62066,3040950
+590,Vendor_A~Product_26,Metro,Product_494,478ml,Generic Brand,http://example.com/product_590,20048,9130873
+591,Vendor_E~Product_465,Voila,Product_180,327ml,Generic Brand,http://example.com/product_591,43484,9462166
+592,Vendor_A~Product_175,No Frills,Product_305,498ml,Monster,http://example.com/product_592,87837,8824232
+593,Vendor_B~Product_229,Save On Foods,Product_320,460ml,Premium Brand,http://example.com/product_593,98783,1666129
+594,Vendor_A~Product_293,Walmart,Product_486,400ml,Monster,http://example.com/product_594,85489,8475456
+595,Vendor_C~Product_32,Galleria,Product_164,242ml,Premium Brand,http://example.com/product_595,45398,6222181
+596,Vendor_C~Product_123,Save On Foods,Product_248,481ml,Monster,http://example.com/product_596,33099,5742838
+597,Vendor_D~Product_45,Save On Foods,Product_71,444ml,Premium Brand,http://example.com/product_597,77128,6612578
+598,Vendor_B~Product_296,Metro,Product_90,339ml,Monster,http://example.com/product_598,31893,5535573
+599,Vendor_D~Product_243,Galleria,Product_191,213ml,Monster,http://example.com/product_599,11274,4650052
+600,Vendor_C~Product_353,Loblaws,Product_189,476ml,Generic Brand,http://example.com/product_600,89837,1010231
+601,Vendor_A~Product_36,Galleria,Product_178,476ml,Premium Brand,http://example.com/product_601,53194,1004171
+602,Vendor_C~Product_184,No Frills,Product_373,287ml,Monster,http://example.com/product_602,93911,2100100
+603,Vendor_D~Product_50,Galleria,Product_242,281ml,Premium Brand,http://example.com/product_603,83335,8344037
+604,Vendor_B~Product_68,Voila,Product_212,207ml,Premium Brand,http://example.com/product_604,60859,8024060
+605,Vendor_E~Product_40,Galleria,Product_272,487ml,Monster,http://example.com/product_605,80317,6853672
+606,Vendor_B~Product_284,No Frills,Product_408,388ml,Premium Brand,http://example.com/product_606,85930,4593720
+607,Vendor_A~Product_440,Save On Foods,Product_385,239ml,Monster,http://example.com/product_607,77545,8297582
+608,Vendor_B~Product_341,Galleria,Product_390,392ml,Premium Brand,http://example.com/product_608,57348,4886437
+609,Vendor_C~Product_310,Voila,Product_200,243ml,Generic Brand,http://example.com/product_609,50192,1654936
+610,Vendor_C~Product_55,Loblaws,Product_195,369ml,Premium Brand,http://example.com/product_610,60555,3697646
+611,Vendor_B~Product_121,Loblaws,Product_326,343ml,Premium Brand,http://example.com/product_611,81866,1478112
+612,Vendor_B~Product_471,Metro,Product_123,423ml,Generic Brand,http://example.com/product_612,12039,8679784
+613,Vendor_D~Product_164,Save On Foods,Product_144,276ml,Generic Brand,http://example.com/product_613,69674,9139231
+614,Vendor_E~Product_466,Loblaws,Product_34,410ml,Premium Brand,http://example.com/product_614,42034,9158889
+615,Vendor_B~Product_302,Loblaws,Product_270,417ml,Premium Brand,http://example.com/product_615,36020,4767507
+616,Vendor_C~Product_412,Walmart,Product_59,413ml,Monster,http://example.com/product_616,65114,2108209
+617,Vendor_A~Product_351,Save On Foods,Product_198,297ml,Premium Brand,http://example.com/product_617,93108,1089497
+618,Vendor_E~Product_12,Galleria,Product_279,372ml,Generic Brand,http://example.com/product_618,22865,6730599
+619,Vendor_C~Product_11,Galleria,Product_469,467ml,Premium Brand,http://example.com/product_619,53665,1422561
+620,Vendor_B~Product_216,No Frills,Product_129,500ml,Monster,http://example.com/product_620,22821,1878935
+621,Vendor_A~Product_30,Voila,Product_214,435ml,Generic Brand,http://example.com/product_621,38378,9601073
+622,Vendor_D~Product_395,Walmart,Product_68,500ml,Generic Brand,http://example.com/product_622,59640,4001968
+623,Vendor_D~Product_254,Metro,Product_411,202ml,Monster,http://example.com/product_623,73310,4167171
+624,Vendor_C~Product_216,Save On Foods,Product_43,318ml,Generic Brand,http://example.com/product_624,86694,4252966
+625,Vendor_A~Product_273,No Frills,Product_495,428ml,Premium Brand,http://example.com/product_625,87629,3766847
+626,Vendor_B~Product_407,Metro,Product_350,307ml,Generic Brand,http://example.com/product_626,27704,8044366
+627,Vendor_C~Product_482,Loblaws,Product_30,331ml,Generic Brand,http://example.com/product_627,57642,3800433
+628,Vendor_A~Product_74,No Frills,Product_194,462ml,Generic Brand,http://example.com/product_628,88693,7062723
+629,Vendor_A~Product_310,Voila,Product_404,431ml,Premium Brand,http://example.com/product_629,15849,7114197
+630,Vendor_B~Product_388,Metro,Product_20,258ml,Generic Brand,http://example.com/product_630,27940,4089742
+631,Vendor_B~Product_70,No Frills,Product_320,497ml,Premium Brand,http://example.com/product_631,93567,1187443
+632,Vendor_D~Product_202,Loblaws,Product_1,295ml,Generic Brand,http://example.com/product_632,67683,6499189
+633,Vendor_C~Product_211,Voila,Product_32,394ml,Generic Brand,http://example.com/product_633,76360,5920505
+634,Vendor_B~Product_102,Metro,Product_330,466ml,Generic Brand,http://example.com/product_634,57956,8042559
+635,Vendor_B~Product_251,Voila,Product_492,317ml,Monster,http://example.com/product_635,56499,1351274
+636,Vendor_E~Product_169,Save On Foods,Product_358,202ml,Premium Brand,http://example.com/product_636,33404,1822352
+637,Vendor_A~Product_92,Loblaws,Product_185,323ml,Premium Brand,http://example.com/product_637,14616,8425261
+638,Vendor_C~Product_124,Loblaws,Product_334,280ml,Premium Brand,http://example.com/product_638,40060,3117890
+639,Vendor_B~Product_376,Metro,Product_321,454ml,Monster,http://example.com/product_639,37395,6285101
+640,Vendor_B~Product_48,Galleria,Product_242,311ml,Premium Brand,http://example.com/product_640,76758,9115379
+641,Vendor_D~Product_237,Walmart,Product_423,393ml,Premium Brand,http://example.com/product_641,75523,4295576
+642,Vendor_D~Product_329,No Frills,Product_139,248ml,Premium Brand,http://example.com/product_642,67251,1468277
+643,Vendor_D~Product_255,No Frills,Product_423,311ml,Monster,http://example.com/product_643,65651,9829460
+644,Vendor_E~Product_263,Voila,Product_285,426ml,Generic Brand,http://example.com/product_644,56479,7301345
+645,Vendor_E~Product_179,Galleria,Product_430,374ml,Monster,http://example.com/product_645,90485,3154127
+646,Vendor_D~Product_408,Voila,Product_219,297ml,Premium Brand,http://example.com/product_646,81943,7227580
+647,Vendor_D~Product_490,Metro,Product_242,233ml,Generic Brand,http://example.com/product_647,59565,4679384
+648,Vendor_B~Product_338,Voila,Product_445,425ml,Monster,http://example.com/product_648,35315,2933025
+649,Vendor_E~Product_344,Save On Foods,Product_69,386ml,Premium Brand,http://example.com/product_649,46321,5664485
+650,Vendor_B~Product_328,Voila,Product_214,483ml,Generic Brand,http://example.com/product_650,35988,4010878
+651,Vendor_B~Product_192,Loblaws,Product_442,383ml,Premium Brand,http://example.com/product_651,31586,4502771
+652,Vendor_D~Product_316,Metro,Product_174,336ml,Generic Brand,http://example.com/product_652,48772,2902671
+653,Vendor_E~Product_16,Loblaws,Product_300,384ml,Premium Brand,http://example.com/product_653,47832,6869211
+654,Vendor_C~Product_380,Galleria,Product_40,428ml,Generic Brand,http://example.com/product_654,13855,8325516
+655,Vendor_C~Product_47,Metro,Product_160,331ml,Premium Brand,http://example.com/product_655,40921,1327728
+656,Vendor_B~Product_466,Voila,Product_71,294ml,Monster,http://example.com/product_656,42355,3696802
+657,Vendor_B~Product_413,Save On Foods,Product_214,337ml,Premium Brand,http://example.com/product_657,97264,5973634
+658,Vendor_A~Product_61,Galleria,Product_356,282ml,Premium Brand,http://example.com/product_658,59876,2549329
+659,Vendor_C~Product_497,Loblaws,Product_353,246ml,Generic Brand,http://example.com/product_659,66535,9317717
+660,Vendor_E~Product_318,Metro,Product_418,202ml,Generic Brand,http://example.com/product_660,33697,2544452
+661,Vendor_C~Product_153,No Frills,Product_1,496ml,Premium Brand,http://example.com/product_661,86093,5472872
+662,Vendor_E~Product_208,Loblaws,Product_229,331ml,Monster,http://example.com/product_662,88686,4106714
+663,Vendor_A~Product_325,Walmart,Product_267,378ml,Premium Brand,http://example.com/product_663,90148,6839600
+664,Vendor_B~Product_279,Metro,Product_168,340ml,Monster,http://example.com/product_664,95283,1138351
+665,Vendor_D~Product_67,Metro,Product_489,467ml,Generic Brand,http://example.com/product_665,63467,7872770
+666,Vendor_C~Product_70,Galleria,Product_48,462ml,Premium Brand,http://example.com/product_666,48960,6987432
+667,Vendor_E~Product_473,Walmart,Product_397,212ml,Monster,http://example.com/product_667,22726,1252832
+668,Vendor_E~Product_403,Metro,Product_17,334ml,Monster,http://example.com/product_668,67211,6046377
+669,Vendor_E~Product_11,Loblaws,Product_366,375ml,Generic Brand,http://example.com/product_669,89964,2459294
+670,Vendor_D~Product_235,Loblaws,Product_139,269ml,Generic Brand,http://example.com/product_670,24471,3714650
+671,Vendor_C~Product_396,No Frills,Product_448,399ml,Premium Brand,http://example.com/product_671,52347,6575420
+672,Vendor_C~Product_225,Voila,Product_241,380ml,Premium Brand,http://example.com/product_672,54801,5360688
+673,Vendor_B~Product_190,Metro,Product_58,485ml,Premium Brand,http://example.com/product_673,99055,7886013
+674,Vendor_B~Product_328,Metro,Product_202,427ml,Premium Brand,http://example.com/product_674,11896,1358986
+675,Vendor_B~Product_71,Loblaws,Product_306,240ml,Premium Brand,http://example.com/product_675,36592,2114161
+676,Vendor_B~Product_79,Walmart,Product_142,249ml,Generic Brand,http://example.com/product_676,90834,5207805
+677,Vendor_B~Product_485,Loblaws,Product_268,405ml,Premium Brand,http://example.com/product_677,73828,1818148
+678,Vendor_C~Product_99,Walmart,Product_224,425ml,Monster,http://example.com/product_678,58222,6706225
+679,Vendor_A~Product_7,Loblaws,Product_256,246ml,Monster,http://example.com/product_679,36608,8401823
+680,Vendor_A~Product_256,Loblaws,Product_457,462ml,Generic Brand,http://example.com/product_680,69117,7683431
+681,Vendor_A~Product_13,No Frills,Product_132,360ml,Generic Brand,http://example.com/product_681,67238,5378347
+682,Vendor_A~Product_340,Voila,Product_249,290ml,Premium Brand,http://example.com/product_682,88198,1321693
+683,Vendor_C~Product_201,Voila,Product_369,358ml,Premium Brand,http://example.com/product_683,50872,3429533
+684,Vendor_A~Product_245,Save On Foods,Product_315,499ml,Monster,http://example.com/product_684,87434,5767833
+685,Vendor_B~Product_396,Voila,Product_124,299ml,Premium Brand,http://example.com/product_685,73961,6311895
+686,Vendor_C~Product_462,Walmart,Product_43,368ml,Monster,http://example.com/product_686,45584,1902133
+687,Vendor_D~Product_249,Voila,Product_27,392ml,Premium Brand,http://example.com/product_687,32753,3433562
+688,Vendor_D~Product_359,Walmart,Product_228,376ml,Premium Brand,http://example.com/product_688,68537,6519159
+689,Vendor_C~Product_220,Loblaws,Product_233,400ml,Generic Brand,http://example.com/product_689,67159,2045525
+690,Vendor_D~Product_73,Walmart,Product_306,386ml,Generic Brand,http://example.com/product_690,10099,3308754
+691,Vendor_B~Product_224,Save On Foods,Product_241,234ml,Monster,http://example.com/product_691,36762,4578785
+692,Vendor_C~Product_249,Save On Foods,Product_332,371ml,Generic Brand,http://example.com/product_692,90689,2430362
+693,Vendor_D~Product_247,No Frills,Product_265,313ml,Generic Brand,http://example.com/product_693,64521,1749060
+694,Vendor_C~Product_420,Metro,Product_400,468ml,Premium Brand,http://example.com/product_694,31593,2891341
+695,Vendor_D~Product_211,Walmart,Product_126,237ml,Premium Brand,http://example.com/product_695,24551,7868135
+696,Vendor_E~Product_489,Walmart,Product_284,472ml,Generic Brand,http://example.com/product_696,44444,6253602
+697,Vendor_A~Product_34,Metro,Product_348,388ml,Premium Brand,http://example.com/product_697,89288,1491251
+698,Vendor_E~Product_189,Loblaws,Product_380,221ml,Monster,http://example.com/product_698,24144,3645670
+699,Vendor_D~Product_184,Galleria,Product_77,378ml,Generic Brand,http://example.com/product_699,38679,8667599
+700,Vendor_E~Product_369,Walmart,Product_455,256ml,Generic Brand,http://example.com/product_700,59120,2265700
+701,Vendor_A~Product_332,Galleria,Product_374,434ml,Premium Brand,http://example.com/product_701,64558,3091325
+702,Vendor_A~Product_398,Galleria,Product_3,263ml,Monster,http://example.com/product_702,19279,5428831
+703,Vendor_A~Product_330,Galleria,Product_471,492ml,Premium Brand,http://example.com/product_703,13733,1042825
+704,Vendor_B~Product_487,Galleria,Product_12,490ml,Premium Brand,http://example.com/product_704,55314,5431519
+705,Vendor_B~Product_16,No Frills,Product_344,211ml,Monster,http://example.com/product_705,16682,2392143
+706,Vendor_D~Product_98,Walmart,Product_276,314ml,Monster,http://example.com/product_706,35639,7720679
+707,Vendor_A~Product_74,Metro,Product_400,359ml,Monster,http://example.com/product_707,14353,5297312
+708,Vendor_B~Product_243,Loblaws,Product_33,491ml,Monster,http://example.com/product_708,94638,7801201
+709,Vendor_A~Product_194,No Frills,Product_427,221ml,Generic Brand,http://example.com/product_709,21697,4960709
+710,Vendor_C~Product_149,Loblaws,Product_193,348ml,Premium Brand,http://example.com/product_710,29477,7840701
+711,Vendor_C~Product_136,Voila,Product_249,209ml,Premium Brand,http://example.com/product_711,20035,4522476
+712,Vendor_A~Product_289,Save On Foods,Product_180,398ml,Monster,http://example.com/product_712,86972,6517223
+713,Vendor_D~Product_353,Voila,Product_229,297ml,Monster,http://example.com/product_713,96767,9665011
+714,Vendor_C~Product_207,Metro,Product_400,276ml,Monster,http://example.com/product_714,61292,5684772
+715,Vendor_E~Product_344,Walmart,Product_291,255ml,Premium Brand,http://example.com/product_715,71235,7809772
+716,Vendor_B~Product_402,Loblaws,Product_271,200ml,Premium Brand,http://example.com/product_716,39070,2982961
+717,Vendor_D~Product_376,Metro,Product_217,241ml,Generic Brand,http://example.com/product_717,57462,1218090
+718,Vendor_B~Product_483,Walmart,Product_296,220ml,Premium Brand,http://example.com/product_718,45789,9132655
+719,Vendor_B~Product_16,Walmart,Product_253,243ml,Premium Brand,http://example.com/product_719,74629,8805946
+720,Vendor_A~Product_260,No Frills,Product_17,340ml,Generic Brand,http://example.com/product_720,31426,3023506
+721,Vendor_A~Product_167,Voila,Product_278,261ml,Generic Brand,http://example.com/product_721,65989,8576826
+722,Vendor_C~Product_98,Save On Foods,Product_229,434ml,Premium Brand,http://example.com/product_722,83305,3318270
+723,Vendor_E~Product_446,Save On Foods,Product_414,278ml,Premium Brand,http://example.com/product_723,82976,1785723
+724,Vendor_E~Product_494,Walmart,Product_169,448ml,Premium Brand,http://example.com/product_724,31267,3521852
+725,Vendor_A~Product_348,Walmart,Product_362,287ml,Monster,http://example.com/product_725,31539,4334258
+726,Vendor_D~Product_420,No Frills,Product_13,215ml,Generic Brand,http://example.com/product_726,98881,7003606
+727,Vendor_B~Product_497,No Frills,Product_57,417ml,Monster,http://example.com/product_727,67355,6111284
+728,Vendor_C~Product_211,Walmart,Product_101,411ml,Monster,http://example.com/product_728,76962,6328849
+729,Vendor_C~Product_151,Metro,Product_257,254ml,Generic Brand,http://example.com/product_729,61178,2931076
+730,Vendor_B~Product_456,Voila,Product_180,304ml,Monster,http://example.com/product_730,87711,2921425
+731,Vendor_E~Product_147,Galleria,Product_204,425ml,Premium Brand,http://example.com/product_731,67062,3640449
+732,Vendor_D~Product_327,Save On Foods,Product_244,237ml,Generic Brand,http://example.com/product_732,41485,4742943
+733,Vendor_A~Product_204,Voila,Product_287,371ml,Premium Brand,http://example.com/product_733,28748,5983198
+734,Vendor_D~Product_450,Galleria,Product_237,451ml,Premium Brand,http://example.com/product_734,55107,5921114
+735,Vendor_C~Product_402,Loblaws,Product_448,271ml,Monster,http://example.com/product_735,62434,7114961
+736,Vendor_E~Product_313,Loblaws,Product_478,287ml,Premium Brand,http://example.com/product_736,45343,2589777
+737,Vendor_E~Product_176,Voila,Product_418,219ml,Generic Brand,http://example.com/product_737,21129,6100890
+738,Vendor_D~Product_378,Save On Foods,Product_42,208ml,Generic Brand,http://example.com/product_738,77436,5033134
+739,Vendor_E~Product_23,Metro,Product_126,348ml,Monster,http://example.com/product_739,99389,5586384
+740,Vendor_A~Product_369,Loblaws,Product_261,399ml,Generic Brand,http://example.com/product_740,17821,2373579
+741,Vendor_E~Product_139,Galleria,Product_131,335ml,Generic Brand,http://example.com/product_741,16569,3638599
+742,Vendor_D~Product_386,Metro,Product_389,270ml,Generic Brand,http://example.com/product_742,92894,2132057
+743,Vendor_E~Product_46,Save On Foods,Product_109,246ml,Generic Brand,http://example.com/product_743,79889,8676268
+744,Vendor_E~Product_89,Save On Foods,Product_333,407ml,Monster,http://example.com/product_744,93774,6511821
+745,Vendor_E~Product_89,Walmart,Product_207,402ml,Monster,http://example.com/product_745,66101,1263076
+746,Vendor_C~Product_273,Save On Foods,Product_262,392ml,Generic Brand,http://example.com/product_746,84924,9851075
+747,Vendor_D~Product_278,Galleria,Product_193,392ml,Monster,http://example.com/product_747,17375,5623999
+748,Vendor_E~Product_205,No Frills,Product_74,404ml,Monster,http://example.com/product_748,51658,6285732
+749,Vendor_E~Product_342,Loblaws,Product_183,315ml,Generic Brand,http://example.com/product_749,72894,3112695
+750,Vendor_D~Product_281,No Frills,Product_370,328ml,Monster,http://example.com/product_750,40545,6640016
+751,Vendor_D~Product_439,Metro,Product_153,460ml,Generic Brand,http://example.com/product_751,54189,2759062
+752,Vendor_C~Product_457,Save On Foods,Product_43,442ml,Monster,http://example.com/product_752,52670,4630226
+753,Vendor_C~Product_495,Loblaws,Product_20,411ml,Generic Brand,http://example.com/product_753,43693,3555170
+754,Vendor_D~Product_316,Loblaws,Product_466,328ml,Premium Brand,http://example.com/product_754,36434,1616150
+755,Vendor_A~Product_419,Voila,Product_143,440ml,Premium Brand,http://example.com/product_755,40688,1599230
+756,Vendor_D~Product_216,Voila,Product_474,331ml,Premium Brand,http://example.com/product_756,36349,3866365
+757,Vendor_B~Product_122,Voila,Product_39,477ml,Monster,http://example.com/product_757,88461,9976883
+758,Vendor_B~Product_102,Walmart,Product_387,224ml,Premium Brand,http://example.com/product_758,54426,8473887
+759,Vendor_D~Product_426,Metro,Product_344,317ml,Premium Brand,http://example.com/product_759,92514,5448609
+760,Vendor_A~Product_460,Voila,Product_317,209ml,Premium Brand,http://example.com/product_760,94274,1393225
+761,Vendor_A~Product_271,Metro,Product_275,328ml,Premium Brand,http://example.com/product_761,51951,2307476
+762,Vendor_B~Product_233,Loblaws,Product_421,476ml,Generic Brand,http://example.com/product_762,59198,3808701
+763,Vendor_D~Product_143,Metro,Product_303,299ml,Generic Brand,http://example.com/product_763,63406,2553148
+764,Vendor_E~Product_36,Galleria,Product_211,389ml,Monster,http://example.com/product_764,73415,7451798
+765,Vendor_C~Product_25,No Frills,Product_310,225ml,Premium Brand,http://example.com/product_765,83101,3663322
+766,Vendor_A~Product_425,Metro,Product_263,279ml,Premium Brand,http://example.com/product_766,52967,4688790
+767,Vendor_C~Product_5,Voila,Product_220,387ml,Generic Brand,http://example.com/product_767,74427,2187607
+768,Vendor_C~Product_462,Voila,Product_16,253ml,Monster,http://example.com/product_768,73401,3734426
+769,Vendor_B~Product_81,Galleria,Product_5,389ml,Premium Brand,http://example.com/product_769,95838,9528987
+770,Vendor_D~Product_386,Galleria,Product_152,329ml,Monster,http://example.com/product_770,49050,5766112
+771,Vendor_A~Product_51,Save On Foods,Product_368,423ml,Generic Brand,http://example.com/product_771,43653,8363970
+772,Vendor_C~Product_357,Metro,Product_184,481ml,Monster,http://example.com/product_772,87227,3991791
+773,Vendor_E~Product_256,Walmart,Product_115,424ml,Premium Brand,http://example.com/product_773,32036,9749185
+774,Vendor_E~Product_88,Galleria,Product_170,294ml,Generic Brand,http://example.com/product_774,67563,2392476
+775,Vendor_E~Product_75,No Frills,Product_33,250ml,Premium Brand,http://example.com/product_775,17001,7027850
+776,Vendor_B~Product_417,Loblaws,Product_116,434ml,Premium Brand,http://example.com/product_776,75604,2480200
+777,Vendor_E~Product_135,Galleria,Product_292,436ml,Premium Brand,http://example.com/product_777,97683,1035011
+778,Vendor_E~Product_271,Save On Foods,Product_27,446ml,Monster,http://example.com/product_778,88966,1173648
+779,Vendor_A~Product_218,No Frills,Product_191,484ml,Premium Brand,http://example.com/product_779,78510,1377805
+780,Vendor_E~Product_485,Metro,Product_276,345ml,Monster,http://example.com/product_780,69195,5701904
+781,Vendor_A~Product_343,No Frills,Product_393,296ml,Premium Brand,http://example.com/product_781,28974,7188954
+782,Vendor_B~Product_267,Walmart,Product_69,223ml,Premium Brand,http://example.com/product_782,21573,6406921
+783,Vendor_A~Product_48,Voila,Product_391,437ml,Monster,http://example.com/product_783,63998,6405334
+784,Vendor_A~Product_281,Metro,Product_181,422ml,Monster,http://example.com/product_784,60438,3190733
+785,Vendor_B~Product_138,Loblaws,Product_33,204ml,Premium Brand,http://example.com/product_785,36174,4311919
+786,Vendor_D~Product_482,No Frills,Product_52,261ml,Monster,http://example.com/product_786,32216,6411453
+787,Vendor_E~Product_284,Voila,Product_2,221ml,Premium Brand,http://example.com/product_787,94884,3923207
+788,Vendor_B~Product_134,Save On Foods,Product_363,351ml,Monster,http://example.com/product_788,19377,6537488
+789,Vendor_B~Product_12,Loblaws,Product_1,499ml,Monster,http://example.com/product_789,85896,6918388
+790,Vendor_B~Product_147,Save On Foods,Product_109,352ml,Premium Brand,http://example.com/product_790,85257,5622942
+791,Vendor_D~Product_236,Loblaws,Product_415,431ml,Premium Brand,http://example.com/product_791,93885,9245020
+792,Vendor_E~Product_419,Metro,Product_170,350ml,Generic Brand,http://example.com/product_792,56937,5081593
+793,Vendor_B~Product_264,Voila,Product_370,245ml,Monster,http://example.com/product_793,26360,7413641
+794,Vendor_C~Product_55,Walmart,Product_260,216ml,Generic Brand,http://example.com/product_794,99605,6055060
+795,Vendor_A~Product_348,Galleria,Product_36,368ml,Premium Brand,http://example.com/product_795,94597,5336649
+796,Vendor_D~Product_109,Loblaws,Product_250,399ml,Monster,http://example.com/product_796,95554,5613798
+797,Vendor_C~Product_304,Loblaws,Product_192,241ml,Monster,http://example.com/product_797,34626,1001054
+798,Vendor_C~Product_386,Save On Foods,Product_162,282ml,Premium Brand,http://example.com/product_798,51152,4908256
+799,Vendor_C~Product_254,Metro,Product_400,378ml,Premium Brand,http://example.com/product_799,23099,4890911
+800,Vendor_B~Product_333,Save On Foods,Product_60,397ml,Generic Brand,http://example.com/product_800,24155,8814543
+801,Vendor_D~Product_237,Voila,Product_144,361ml,Generic Brand,http://example.com/product_801,12621,2823676
+802,Vendor_D~Product_181,Metro,Product_424,302ml,Premium Brand,http://example.com/product_802,81648,2208896
+803,Vendor_B~Product_358,Metro,Product_253,328ml,Premium Brand,http://example.com/product_803,92970,2994734
+804,Vendor_C~Product_339,Walmart,Product_374,419ml,Generic Brand,http://example.com/product_804,51448,6563752
+805,Vendor_A~Product_31,Walmart,Product_355,401ml,Premium Brand,http://example.com/product_805,69948,8516355
+806,Vendor_D~Product_203,No Frills,Product_468,439ml,Monster,http://example.com/product_806,51556,6500834
+807,Vendor_A~Product_108,Voila,Product_114,239ml,Monster,http://example.com/product_807,41117,6536835
+808,Vendor_A~Product_203,No Frills,Product_427,324ml,Premium Brand,http://example.com/product_808,20687,2350336
+809,Vendor_D~Product_157,Metro,Product_145,429ml,Generic Brand,http://example.com/product_809,59213,2282288
+810,Vendor_C~Product_33,Save On Foods,Product_272,209ml,Premium Brand,http://example.com/product_810,39431,3201605
+811,Vendor_E~Product_155,Voila,Product_418,455ml,Generic Brand,http://example.com/product_811,80775,2303899
+812,Vendor_B~Product_153,No Frills,Product_264,242ml,Premium Brand,http://example.com/product_812,93494,1264385
+813,Vendor_E~Product_328,Walmart,Product_197,231ml,Generic Brand,http://example.com/product_813,32945,4732809
+814,Vendor_B~Product_481,No Frills,Product_268,276ml,Monster,http://example.com/product_814,84762,8608952
+815,Vendor_D~Product_348,Save On Foods,Product_187,474ml,Monster,http://example.com/product_815,57541,1031705
+816,Vendor_B~Product_56,Voila,Product_95,393ml,Premium Brand,http://example.com/product_816,26251,8744541
+817,Vendor_B~Product_296,Walmart,Product_239,253ml,Monster,http://example.com/product_817,25295,3793165
+818,Vendor_D~Product_63,No Frills,Product_407,380ml,Generic Brand,http://example.com/product_818,82814,8298937
+819,Vendor_D~Product_364,Metro,Product_450,472ml,Monster,http://example.com/product_819,63129,9472049
+820,Vendor_A~Product_72,Metro,Product_15,331ml,Generic Brand,http://example.com/product_820,85343,7918722
+821,Vendor_C~Product_464,Loblaws,Product_421,387ml,Premium Brand,http://example.com/product_821,33575,5842207
+822,Vendor_A~Product_266,Voila,Product_297,281ml,Premium Brand,http://example.com/product_822,85400,8595764
+823,Vendor_C~Product_15,Galleria,Product_463,341ml,Generic Brand,http://example.com/product_823,45550,2105686
+824,Vendor_C~Product_298,Loblaws,Product_359,456ml,Generic Brand,http://example.com/product_824,41814,3737499
+825,Vendor_C~Product_152,Galleria,Product_361,318ml,Generic Brand,http://example.com/product_825,64150,4891194
+826,Vendor_E~Product_104,Save On Foods,Product_472,246ml,Monster,http://example.com/product_826,73548,5245043
+827,Vendor_B~Product_348,Galleria,Product_329,304ml,Monster,http://example.com/product_827,81749,8232915
+828,Vendor_A~Product_40,Galleria,Product_459,238ml,Premium Brand,http://example.com/product_828,28534,6339115
+829,Vendor_E~Product_386,Voila,Product_202,262ml,Premium Brand,http://example.com/product_829,53566,6655566
+830,Vendor_C~Product_366,Voila,Product_305,326ml,Monster,http://example.com/product_830,69252,9671088
+831,Vendor_C~Product_146,Galleria,Product_234,462ml,Premium Brand,http://example.com/product_831,93226,4038257
+832,Vendor_C~Product_75,Voila,Product_111,250ml,Premium Brand,http://example.com/product_832,40419,8909402
+833,Vendor_C~Product_130,Walmart,Product_295,247ml,Monster,http://example.com/product_833,58195,2459857
+834,Vendor_A~Product_128,Walmart,Product_156,488ml,Premium Brand,http://example.com/product_834,63244,2891412
+835,Vendor_C~Product_444,Metro,Product_401,281ml,Generic Brand,http://example.com/product_835,40930,4278239
+836,Vendor_C~Product_147,Voila,Product_492,300ml,Monster,http://example.com/product_836,26345,3423143
+837,Vendor_B~Product_240,Loblaws,Product_421,318ml,Generic Brand,http://example.com/product_837,24098,5243417
+838,Vendor_E~Product_194,Save On Foods,Product_163,318ml,Premium Brand,http://example.com/product_838,18930,5214309
+839,Vendor_E~Product_121,Metro,Product_82,348ml,Generic Brand,http://example.com/product_839,74674,3194574
+840,Vendor_B~Product_297,Voila,Product_206,412ml,Monster,http://example.com/product_840,63491,8007586
+841,Vendor_E~Product_215,Save On Foods,Product_189,323ml,Monster,http://example.com/product_841,32540,5661566
+842,Vendor_B~Product_261,Galleria,Product_455,259ml,Monster,http://example.com/product_842,22682,4105133
+843,Vendor_C~Product_122,Galleria,Product_45,245ml,Monster,http://example.com/product_843,69685,3381748
+844,Vendor_A~Product_262,No Frills,Product_159,384ml,Generic Brand,http://example.com/product_844,10822,3283601
+845,Vendor_C~Product_114,Metro,Product_387,277ml,Generic Brand,http://example.com/product_845,95005,7783656
+846,Vendor_C~Product_209,Loblaws,Product_290,258ml,Generic Brand,http://example.com/product_846,84516,7496264
+847,Vendor_E~Product_283,Loblaws,Product_25,347ml,Monster,http://example.com/product_847,45337,6053724
+848,Vendor_E~Product_140,Metro,Product_203,289ml,Premium Brand,http://example.com/product_848,32799,5146972
+849,Vendor_B~Product_463,Galleria,Product_490,217ml,Monster,http://example.com/product_849,26242,7740668
+850,Vendor_D~Product_98,Walmart,Product_377,429ml,Premium Brand,http://example.com/product_850,36090,1219901
+851,Vendor_C~Product_398,Metro,Product_464,442ml,Generic Brand,http://example.com/product_851,19318,5362245
+852,Vendor_E~Product_130,Metro,Product_185,499ml,Monster,http://example.com/product_852,72653,5467031
+853,Vendor_A~Product_336,No Frills,Product_244,477ml,Monster,http://example.com/product_853,25739,4513931
+854,Vendor_A~Product_143,Walmart,Product_123,264ml,Premium Brand,http://example.com/product_854,87768,4281421
+855,Vendor_E~Product_61,Save On Foods,Product_378,264ml,Premium Brand,http://example.com/product_855,80714,7259290
+856,Vendor_C~Product_458,Galleria,Product_227,459ml,Premium Brand,http://example.com/product_856,22042,7800065
+857,Vendor_B~Product_379,Metro,Product_420,466ml,Premium Brand,http://example.com/product_857,96660,5839455
+858,Vendor_E~Product_117,Loblaws,Product_391,468ml,Monster,http://example.com/product_858,33046,4865455
+859,Vendor_D~Product_152,Galleria,Product_266,233ml,Generic Brand,http://example.com/product_859,36927,9803476
+860,Vendor_A~Product_475,Loblaws,Product_20,375ml,Monster,http://example.com/product_860,73954,3142909
+861,Vendor_E~Product_387,Metro,Product_62,230ml,Premium Brand,http://example.com/product_861,20722,4323899
+862,Vendor_E~Product_290,Save On Foods,Product_401,371ml,Generic Brand,http://example.com/product_862,10133,7194424
+863,Vendor_A~Product_299,Voila,Product_213,269ml,Monster,http://example.com/product_863,15283,4546859
+864,Vendor_A~Product_168,No Frills,Product_235,395ml,Monster,http://example.com/product_864,11192,2326229
+865,Vendor_E~Product_59,Galleria,Product_462,279ml,Monster,http://example.com/product_865,68150,2881899
+866,Vendor_D~Product_30,Voila,Product_131,476ml,Generic Brand,http://example.com/product_866,87228,7608349
+867,Vendor_E~Product_144,Metro,Product_180,254ml,Generic Brand,http://example.com/product_867,66598,9637788
+868,Vendor_D~Product_393,Walmart,Product_334,261ml,Generic Brand,http://example.com/product_868,41617,7154373
+869,Vendor_E~Product_313,Save On Foods,Product_480,439ml,Generic Brand,http://example.com/product_869,44498,1602073
+870,Vendor_E~Product_64,Save On Foods,Product_113,254ml,Monster,http://example.com/product_870,54519,4042617
+871,Vendor_A~Product_175,Loblaws,Product_357,353ml,Premium Brand,http://example.com/product_871,62308,8302621
+872,Vendor_B~Product_205,Save On Foods,Product_30,470ml,Premium Brand,http://example.com/product_872,61896,2655186
+873,Vendor_E~Product_439,No Frills,Product_291,341ml,Generic Brand,http://example.com/product_873,42094,3254967
+874,Vendor_A~Product_347,Loblaws,Product_206,228ml,Premium Brand,http://example.com/product_874,11832,4761963
+875,Vendor_E~Product_210,Voila,Product_17,409ml,Monster,http://example.com/product_875,45488,5094765
+876,Vendor_D~Product_111,Metro,Product_267,276ml,Monster,http://example.com/product_876,14185,5204990
+877,Vendor_C~Product_300,No Frills,Product_1,215ml,Generic Brand,http://example.com/product_877,66117,5996985
+878,Vendor_D~Product_117,Galleria,Product_329,451ml,Generic Brand,http://example.com/product_878,19415,2379998
+879,Vendor_C~Product_457,Walmart,Product_59,375ml,Premium Brand,http://example.com/product_879,95709,1567186
+880,Vendor_A~Product_253,Voila,Product_475,365ml,Premium Brand,http://example.com/product_880,64323,2389287
+881,Vendor_A~Product_227,Metro,Product_451,341ml,Monster,http://example.com/product_881,86693,5048063
+882,Vendor_A~Product_493,Save On Foods,Product_436,295ml,Monster,http://example.com/product_882,56904,3973278
+883,Vendor_E~Product_314,No Frills,Product_428,262ml,Premium Brand,http://example.com/product_883,82662,8352887
+884,Vendor_A~Product_457,Loblaws,Product_406,329ml,Generic Brand,http://example.com/product_884,15306,9787959
+885,Vendor_D~Product_254,Loblaws,Product_44,440ml,Monster,http://example.com/product_885,59557,6897116
+886,Vendor_E~Product_432,Metro,Product_432,248ml,Monster,http://example.com/product_886,55727,1880272
+887,Vendor_B~Product_453,Metro,Product_425,291ml,Premium Brand,http://example.com/product_887,44999,8981733
+888,Vendor_A~Product_40,Walmart,Product_350,377ml,Premium Brand,http://example.com/product_888,87934,9388645
+889,Vendor_D~Product_220,Metro,Product_73,410ml,Monster,http://example.com/product_889,67072,4810725
+890,Vendor_E~Product_318,Save On Foods,Product_15,317ml,Premium Brand,http://example.com/product_890,61263,3306478
+891,Vendor_C~Product_210,Galleria,Product_430,469ml,Generic Brand,http://example.com/product_891,42116,5691381
+892,Vendor_A~Product_390,Save On Foods,Product_35,233ml,Generic Brand,http://example.com/product_892,48493,8527176
+893,Vendor_D~Product_104,Save On Foods,Product_392,369ml,Premium Brand,http://example.com/product_893,97631,3099800
+894,Vendor_D~Product_491,No Frills,Product_304,353ml,Generic Brand,http://example.com/product_894,26487,5251955
+895,Vendor_A~Product_491,Galleria,Product_449,464ml,Monster,http://example.com/product_895,76666,4481688
+896,Vendor_A~Product_278,Walmart,Product_90,229ml,Monster,http://example.com/product_896,68176,1739744
+897,Vendor_C~Product_252,Walmart,Product_363,418ml,Monster,http://example.com/product_897,70836,1575698
+898,Vendor_D~Product_346,Metro,Product_1,276ml,Premium Brand,http://example.com/product_898,11650,9902267
+899,Vendor_E~Product_166,Loblaws,Product_239,430ml,Premium Brand,http://example.com/product_899,29947,1384657
+900,Vendor_A~Product_292,Save On Foods,Product_231,392ml,Generic Brand,http://example.com/product_900,94180,6529360
+901,Vendor_A~Product_15,Save On Foods,Product_285,262ml,Premium Brand,http://example.com/product_901,72528,2011929
+902,Vendor_E~Product_177,Save On Foods,Product_318,223ml,Premium Brand,http://example.com/product_902,34012,5847935
+903,Vendor_C~Product_155,Galleria,Product_150,494ml,Monster,http://example.com/product_903,28646,2438422
+904,Vendor_D~Product_72,Voila,Product_151,319ml,Premium Brand,http://example.com/product_904,53187,4006682
+905,Vendor_C~Product_313,Metro,Product_287,299ml,Generic Brand,http://example.com/product_905,23214,5694446
+906,Vendor_B~Product_86,Voila,Product_267,479ml,Monster,http://example.com/product_906,51868,5541045
+907,Vendor_B~Product_363,Voila,Product_94,257ml,Premium Brand,http://example.com/product_907,90773,8804474
+908,Vendor_D~Product_498,Voila,Product_293,207ml,Monster,http://example.com/product_908,85788,9089285
+909,Vendor_C~Product_473,Walmart,Product_479,217ml,Premium Brand,http://example.com/product_909,10431,7589631
+910,Vendor_B~Product_142,No Frills,Product_478,316ml,Premium Brand,http://example.com/product_910,57072,9561843
+911,Vendor_D~Product_236,Loblaws,Product_152,269ml,Premium Brand,http://example.com/product_911,33920,9138238
+912,Vendor_D~Product_72,Metro,Product_496,417ml,Premium Brand,http://example.com/product_912,93317,8909211
+913,Vendor_E~Product_259,Voila,Product_282,264ml,Generic Brand,http://example.com/product_913,74908,3321618
+914,Vendor_E~Product_64,Walmart,Product_113,340ml,Monster,http://example.com/product_914,41983,7639725
+915,Vendor_A~Product_170,No Frills,Product_497,461ml,Premium Brand,http://example.com/product_915,47798,2554908
+916,Vendor_E~Product_19,Metro,Product_90,465ml,Premium Brand,http://example.com/product_916,40992,4556045
+917,Vendor_C~Product_159,Save On Foods,Product_424,436ml,Premium Brand,http://example.com/product_917,45293,8207246
+918,Vendor_B~Product_172,Loblaws,Product_3,363ml,Premium Brand,http://example.com/product_918,91204,7871629
+919,Vendor_A~Product_494,Galleria,Product_148,235ml,Premium Brand,http://example.com/product_919,36155,1498951
+920,Vendor_A~Product_121,Metro,Product_104,387ml,Generic Brand,http://example.com/product_920,12786,5443778
+921,Vendor_C~Product_109,Metro,Product_85,354ml,Generic Brand,http://example.com/product_921,29985,1863792
+922,Vendor_B~Product_454,Galleria,Product_142,223ml,Generic Brand,http://example.com/product_922,61927,9501486
+923,Vendor_B~Product_154,Loblaws,Product_144,289ml,Premium Brand,http://example.com/product_923,86774,5849706
+924,Vendor_C~Product_157,Loblaws,Product_91,328ml,Generic Brand,http://example.com/product_924,29475,3011718
+925,Vendor_E~Product_295,Voila,Product_208,204ml,Generic Brand,http://example.com/product_925,34044,8245132
+926,Vendor_E~Product_405,Galleria,Product_355,384ml,Generic Brand,http://example.com/product_926,19109,5029679
+927,Vendor_E~Product_185,No Frills,Product_398,258ml,Monster,http://example.com/product_927,64995,1546173
+928,Vendor_D~Product_251,Voila,Product_90,297ml,Generic Brand,http://example.com/product_928,13786,1353438
+929,Vendor_A~Product_373,Galleria,Product_337,219ml,Monster,http://example.com/product_929,17205,5240162
+930,Vendor_B~Product_4,Loblaws,Product_191,280ml,Monster,http://example.com/product_930,29190,6727254
+931,Vendor_D~Product_10,No Frills,Product_415,383ml,Premium Brand,http://example.com/product_931,68688,6621706
+932,Vendor_E~Product_208,No Frills,Product_17,314ml,Generic Brand,http://example.com/product_932,98804,4625651
+933,Vendor_B~Product_439,Metro,Product_493,212ml,Premium Brand,http://example.com/product_933,67279,5362357
+934,Vendor_D~Product_208,Voila,Product_468,256ml,Monster,http://example.com/product_934,55297,9789880
+935,Vendor_A~Product_35,Metro,Product_66,420ml,Monster,http://example.com/product_935,91314,4899227
+936,Vendor_E~Product_115,Voila,Product_272,363ml,Monster,http://example.com/product_936,57552,5620416
+937,Vendor_D~Product_371,Walmart,Product_270,222ml,Premium Brand,http://example.com/product_937,93066,4631498
+938,Vendor_E~Product_423,No Frills,Product_165,417ml,Generic Brand,http://example.com/product_938,73500,2306012
+939,Vendor_B~Product_30,Metro,Product_224,306ml,Premium Brand,http://example.com/product_939,57284,6221846
+940,Vendor_E~Product_277,No Frills,Product_126,467ml,Generic Brand,http://example.com/product_940,63589,1159929
+941,Vendor_D~Product_475,Loblaws,Product_41,269ml,Monster,http://example.com/product_941,85996,1595904
+942,Vendor_A~Product_38,Voila,Product_24,392ml,Monster,http://example.com/product_942,13943,1878616
+943,Vendor_B~Product_125,Loblaws,Product_127,437ml,Premium Brand,http://example.com/product_943,29161,3517694
+944,Vendor_B~Product_253,Loblaws,Product_29,239ml,Premium Brand,http://example.com/product_944,30664,9119134
+945,Vendor_B~Product_239,Voila,Product_277,440ml,Monster,http://example.com/product_945,65570,5073029
+946,Vendor_E~Product_386,Metro,Product_347,376ml,Premium Brand,http://example.com/product_946,81367,2516749
+947,Vendor_E~Product_46,Save On Foods,Product_242,300ml,Premium Brand,http://example.com/product_947,99626,5932689
+948,Vendor_C~Product_36,Save On Foods,Product_254,363ml,Generic Brand,http://example.com/product_948,85652,3184948
+949,Vendor_B~Product_438,Galleria,Product_93,342ml,Monster,http://example.com/product_949,32725,2299774
+950,Vendor_B~Product_266,Metro,Product_219,363ml,Monster,http://example.com/product_950,13787,4334534
+951,Vendor_C~Product_293,Voila,Product_156,378ml,Generic Brand,http://example.com/product_951,19267,6644193
+952,Vendor_C~Product_172,Galleria,Product_138,480ml,Premium Brand,http://example.com/product_952,17873,5039588
+953,Vendor_C~Product_196,Save On Foods,Product_93,249ml,Premium Brand,http://example.com/product_953,12382,5334372
+954,Vendor_D~Product_355,No Frills,Product_436,304ml,Generic Brand,http://example.com/product_954,48861,3430234
+955,Vendor_A~Product_135,Metro,Product_146,278ml,Generic Brand,http://example.com/product_955,47006,4858149
+956,Vendor_E~Product_11,Galleria,Product_98,482ml,Monster,http://example.com/product_956,60288,7352878
+957,Vendor_B~Product_118,Galleria,Product_255,338ml,Premium Brand,http://example.com/product_957,68689,4437438
+958,Vendor_A~Product_239,No Frills,Product_254,350ml,Premium Brand,http://example.com/product_958,77238,6912078
+959,Vendor_A~Product_386,Walmart,Product_132,384ml,Premium Brand,http://example.com/product_959,32178,7653573
+960,Vendor_A~Product_361,Galleria,Product_169,254ml,Generic Brand,http://example.com/product_960,18758,8180849
+961,Vendor_E~Product_269,Voila,Product_47,402ml,Generic Brand,http://example.com/product_961,46838,4025399
+962,Vendor_A~Product_416,Save On Foods,Product_194,212ml,Premium Brand,http://example.com/product_962,52401,1161288
+963,Vendor_B~Product_395,No Frills,Product_324,219ml,Generic Brand,http://example.com/product_963,40620,5353952
+964,Vendor_D~Product_343,No Frills,Product_140,346ml,Premium Brand,http://example.com/product_964,99080,8898666
+965,Vendor_B~Product_296,Loblaws,Product_285,415ml,Premium Brand,http://example.com/product_965,62642,8919489
+966,Vendor_E~Product_424,Galleria,Product_178,303ml,Monster,http://example.com/product_966,63620,9098583
+967,Vendor_B~Product_379,Metro,Product_203,452ml,Generic Brand,http://example.com/product_967,52807,6418716
+968,Vendor_B~Product_6,Save On Foods,Product_122,488ml,Monster,http://example.com/product_968,20368,9306187
+969,Vendor_E~Product_5,Walmart,Product_487,451ml,Generic Brand,http://example.com/product_969,49832,4450628
+970,Vendor_D~Product_413,Save On Foods,Product_219,368ml,Generic Brand,http://example.com/product_970,12283,1868089
+971,Vendor_C~Product_489,Galleria,Product_30,472ml,Premium Brand,http://example.com/product_971,76111,2260035
+972,Vendor_E~Product_489,No Frills,Product_324,337ml,Premium Brand,http://example.com/product_972,35412,7110078
+973,Vendor_C~Product_357,Loblaws,Product_10,287ml,Generic Brand,http://example.com/product_973,44822,3774829
+974,Vendor_D~Product_176,Galleria,Product_87,365ml,Monster,http://example.com/product_974,28083,8103551
+975,Vendor_A~Product_188,No Frills,Product_428,373ml,Premium Brand,http://example.com/product_975,28782,9381242
+976,Vendor_D~Product_490,No Frills,Product_368,254ml,Generic Brand,http://example.com/product_976,44028,8831486
+977,Vendor_B~Product_193,Metro,Product_322,323ml,Premium Brand,http://example.com/product_977,94135,5014771
+978,Vendor_A~Product_266,Save On Foods,Product_32,367ml,Monster,http://example.com/product_978,56317,7314137
+979,Vendor_E~Product_130,Voila,Product_178,345ml,Generic Brand,http://example.com/product_979,82749,8156910
+980,Vendor_C~Product_355,Save On Foods,Product_172,422ml,Generic Brand,http://example.com/product_980,99998,5404675
+981,Vendor_D~Product_365,Walmart,Product_262,336ml,Monster,http://example.com/product_981,29953,4531751
+982,Vendor_D~Product_447,Save On Foods,Product_106,333ml,Premium Brand,http://example.com/product_982,27423,6245036
+983,Vendor_A~Product_231,Metro,Product_209,279ml,Monster,http://example.com/product_983,16986,1183742
+984,Vendor_D~Product_461,Voila,Product_488,318ml,Generic Brand,http://example.com/product_984,32482,2182690
+985,Vendor_D~Product_374,Voila,Product_408,496ml,Generic Brand,http://example.com/product_985,26748,2857992
+986,Vendor_C~Product_220,Metro,Product_384,255ml,Generic Brand,http://example.com/product_986,79873,9512222
+987,Vendor_A~Product_399,No Frills,Product_423,371ml,Premium Brand,http://example.com/product_987,91975,6033581
+988,Vendor_E~Product_198,Voila,Product_206,338ml,Generic Brand,http://example.com/product_988,40163,1217048
+989,Vendor_D~Product_61,Galleria,Product_203,201ml,Monster,http://example.com/product_989,53971,5950524
+990,Vendor_C~Product_271,No Frills,Product_346,364ml,Monster,http://example.com/product_990,29024,3274018
+991,Vendor_D~Product_482,Save On Foods,Product_472,484ml,Premium Brand,http://example.com/product_991,23433,5152490
+992,Vendor_D~Product_433,Save On Foods,Product_298,355ml,Premium Brand,http://example.com/product_992,52669,3609942
+993,Vendor_D~Product_419,Save On Foods,Product_467,464ml,Generic Brand,http://example.com/product_993,64161,7384952
+994,Vendor_C~Product_185,Save On Foods,Product_254,398ml,Premium Brand,http://example.com/product_994,38107,8981521
+995,Vendor_C~Product_306,Save On Foods,Product_303,249ml,Generic Brand,http://example.com/product_995,19716,6839400
+996,Vendor_C~Product_74,Voila,Product_107,400ml,Monster,http://example.com/product_996,10629,4085840
+997,Vendor_D~Product_204,Voila,Product_462,212ml,Monster,http://example.com/product_997,19136,2513470
+998,Vendor_C~Product_136,Galleria,Product_138,489ml,Monster,http://example.com/product_998,91637,3684823
+999,Vendor_C~Product_136,No Frills,Product_431,250ml,Generic Brand,http://example.com/product_999,68108,4231486
+1000,Vendor_B~Product_105,Galleria,Product_370,257ml,Premium Brand,http://example.com/product_1000,47456,4711292
