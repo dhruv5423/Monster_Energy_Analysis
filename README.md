@@ -11,7 +11,7 @@ This repo is structured as per the following:
 
 - `data/raw_data` contains the Raw Product Data file, and the Raw Selection File, which filtrs the data for Monster Zero Ultra 473ml prodcuts.
 - `data/cleaned_data` include the cleaned price data for the selected products, and was mutated to include a column of vendors associated with the products.
-- `llm_usage` contains a text file disclosing the usage of ChatGPT Data Analayt to complete this project
+- `llm_usage` contains a text file disclosing the usage of ChatGPT Data Analyst to complete this project
 - `paper` contains the qmd file and the references.bib file used to create a pdf output of the paper
 - `scripts` include the SQL scripts executed in DB Browswer for SQLite to select and clean the data, as well as an R script used to mutate the cleaned price data to include vendors for each product
 
